@@ -397,7 +397,7 @@ br {
   padding: .1rem .85rem 0;
   color: #fff !important;
   margin-top: .5rem;
-  font-size: 1.35rem;
+  font-size: 1.5rem;
   font-weight: normal;
   margin-bottom: 10px;
   min-width: 30px;
@@ -696,3 +696,18 @@ a:hover, a:focus {
 .dkhome-link:hover {
   background-color: #176db5;
 }
+
+
+
+/* resource 페이지 */
+.resource-header {
+  margin-top: 60px;
+  text-align: center;
+}
+@media all and (max-width: 767px) {
+  .resource-header {
+    margin-top: 50px;
+  }
+}
+
+.resource-container {}

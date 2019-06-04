@@ -1,3 +1,4 @@
+<div class="category__wrap">
 {{ range $index, $tag :=  .Params.tags }}
   {{- if eq $index 0 -}}
     <a href="/tags/{{ urlize . }}">{{ lower . }}</a>
@@ -5,3 +6,4 @@
     , <a href="/tags/{{ urlize . }}">{{ lower . }}</a>
   {{- end -}}
 {{ end }}
+</div>
