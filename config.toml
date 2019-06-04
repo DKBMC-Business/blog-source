@@ -1,5 +1,5 @@
 baseURL = "https://DKBMC-Business.github.io/"
-languageCode = "en-us"
+languageCode = "ko"
 title = "Business"
 theme = "startbootstrap-clean-blog-master"
 copyright = "©DK BMC. All rights reserved. Powered by GitHub Pages."
