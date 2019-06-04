@@ -30,6 +30,6 @@ paginate = 6
   url = "/post/" 
   weight = -180
 [[menu.main]]
-  name = "TEST"
-  url = "/test/"
+  name = "Resource"
+  url = "/resource/"
   weight = -160
