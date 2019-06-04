@@ -20,7 +20,7 @@
   - `description` : 게시글의 간단한 부가 설명
   - `draft` : 값이 false일 경우 공개글, true일 경우 비공개글
   - `image` : 썸네일 이미지 URL 입력 (비워놔도 상관없지만, 이미지 URL 넣는 것을 권장드립니다.)
-  - 무료 이미지 사이트 추천 !["https://unsplash.com/"]("https://unsplash.com/")
+  - 무료 이미지 사이트 추천 ["https://unsplash.com/"]("https://unsplash.com/")
   - +++ 아래에 내용 작성 (`html코드`나 `마크다운`으로 작성 가능)
 
 ### 1-4. 게시글 Local 서버에서 확인
