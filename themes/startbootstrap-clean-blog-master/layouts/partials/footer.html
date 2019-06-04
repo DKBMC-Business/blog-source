@@ -1,0 +1,146 @@
+<hr>
+<button class="btn-top" onclick="moveTop()">
+  <img src="{{ .Site.BaseURL }}/img/btn-top.png" alt="TOP"/>
+</button>
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center">
+          <li>
+            <a class="dkhome-link" href="http://www.dkbmc.com/" target="_blank" title="DKBMC 홈페이지"
+              style="background-image:url('{{ .Site.BaseURL }}/img/ico-cloud.png');"></a>
+          </li>
+          {{ with .Site.Params.email }}
+          <li>
+            <a href="mailto:{{ . }}">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          {{ end }}
+          {{ if isset .Site.Params "social" }}
+          {{ range .Site.Params.social }}
+          <li>
+            <a href="{{ .url }}" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-{{ .title }} fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          {{ end }}
+          {{ end }}
+        </ul>
+        <p class="copyright text-muted">{{ .Site.Copyright }}</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<div id="loading">
+  <div class="loader"></div>
+</div>
+
+<!-- jQuery -->
+<script src="{{ .Site.BaseURL }}/js/jquery.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="{{ .Site.BaseURL }}/js/bootstrap.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="{{ .Site.BaseURL }}/js/clean-blog.js"></script>
+
+<script>
+
+  removePreviewImg();
+  $(window).on("load resize", function () {
+    var winWidth = window.innerWidth;
+    if(winWidth <= 1199) {
+      setTimeout(function(){
+        postAlign(2);
+      },200);
+    }
+    else {
+      setTimeout(function(){
+        postAlign(3);
+      },200);
+    }
+    /* Loader */
+    $("#loading").delay(500).fadeOut(500);
+  });
+
+  /* Top Button 활성 & 비활성 */
+  $(document).on("ready scroll",function(){
+    var scrollTop = $(document).scrollTop();
+    if(scrollTop >= 300) {
+      $(".btn-top").addClass("active");
+    }
+    else {
+      $(".btn-top").removeClass("active");
+    }
+  });
+
+  /* 포스트 summary 이미지 관련 */
+  function removePreviewImg() {
+    var previewImg = $(".post-preview__container .post-thumb__img");
+    previewImg.each(function () {
+      var thisSrc = $(this).attr("src");
+      if (thisSrc == "") {
+        $(this).closest(".post-preview__container").children(".post-preview__wrap").css("padding-top", "30px");
+        $(this).hide().remove();
+      }
+    });
+  }
+
+
+  function moveTop() {
+    $("html,body").animate({"scrollTop":0},200);
+    $("html,body").scrollTop(0);
+  }
+  
+  /* 포스트 summary 정렬 관련 */
+  function postAlign(num) {
+    var heightArray = [];
+    for (var i = 0; i < num ; i++) {
+      var $box = $(".post-preview:nth-of-type("+ num +"n+" + i + ")");
+      var boxTarget = ".post-preview:nth-of-type("+ num +"n+" + i + ")";
+      if( i === 0 ) {
+        $box = $(".post-preview:nth-of-type("+ num +"n)");
+        boxTarget = ".post-preview:nth-of-type("+ num +"n)";
+      }
+      var boxHeight = $box.eq(0).outerHeight();
+      for (var n = 1; n < $box.length; n++) {
+        var prevHeight = 0;
+        $box.eq(n).prevAll(boxTarget).each(function () {
+          prevHeight += $(this).outerHeight();
+        });
+        $box.eq(n).css("top", prevHeight + "px");
+        boxHeight += $box.eq(n).outerHeight();
+      }
+      $box.eq(0).css("top", 0);
+      heightArray.push(boxHeight);
+    }
+    var maxHeight = Math.max.apply(null, heightArray);
+    $(".post-row").css("height", maxHeight + 20 + "px");
+  }
+
+  var headTitle = $(".m-header .list-heading h1").text();
+  console.log(headTitle);
+  var $con = $(".sub-container, .sub-container-header, .sub-header");
+  if(headTitle !== "Posts") {
+    $(".main-container, .m-header, .m-container-header").remove();
+    $con.show();
+  }
+  else {
+    $con.remove();
+  }  
+</script>
+
+{{ template "_internal/google_analytics.html" . }}
+
+</body>
+
+</html>
