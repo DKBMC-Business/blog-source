@@ -9,7 +9,7 @@
 
 ### 1-2. DKBMC 기술블로그 소스 가져오기
  - C:\Hugo\blog 디렉토리 생성
- - 해당 디렉토리에 [https://github.com/DK-Business/blog-source](https://github.com/DK-Business/blog-source)에서 블로그 소스 Clone이나 다운로드
+ - 해당 디렉토리에 [https://github.com/DKBMC-Business/blog-source](https://github.com/DKBMC-Business/blog-source)에서 블로그 소스 Clone이나 다운로드
 
 ### 1-3. 게시글 작성
  - `$ hugo new post/파일이름.md` 명령을 입력하면 `\content\post\파일이름.md`에 파일 생성
@@ -29,7 +29,7 @@
 
 ### 1-5. 게시글 업로드
  - `git init`
- - `git remote add origin https://github.com/DK-Business/blog-source`
+ - `git remote add origin https://github.com/DKBMC-Business/blog-source`
  - `git pull origin master`
  - `git add .`
  - `git commit -m "커밋메세지"`
@@ -41,7 +41,7 @@
 
  ---
  
- ![하이라이트](https://DK-Business.github.io/img/highlight.png)
+ ![하이라이트](https://DKBMC-Business.github.io/img/highlight.png)
  
  위의 이미지 처럼 코드박스를 만드려면,
 
@@ -54,13 +54,13 @@
  안에 코드를 입력하시면 됩니다.
 
  ## 3. 블로그 배포 (관리자 only)
-  - 배포 요청이 있을 시 `https://github.com/DK-Business/blog-source` pull 받은 후
+  - 배포 요청이 있을 시 `https://github.com/DKBMC-Business/blog-source` pull 받은 후
   - `$ hugo server -D` 명령을 입력
   - `localhost:1313`에 접속하여 배포될 게시글 검수
   - 검수 완료시 `$ hugo` 명령 입력하여 Build
   - `cd public` 빌드된 public 폴더로 이동 후
   - `git init`
-  - `git remote add origin https://github.com/DK-Business/dk-business.github.io`
+  - `git remote add origin https://github.com/DKBMC-Business/DKBMC-Business.github.io`
   - `git add .`
   - `git commit -m "커밋메세지"`
   - `git push origin master`
