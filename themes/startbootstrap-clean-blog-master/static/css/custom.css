@@ -218,7 +218,7 @@ br {
 }
 
 .container-header .category-filter__wrap {
-  text-align: right;
+  text-align: left;
   position: relative;
 }
 
@@ -244,7 +244,7 @@ br {
   position: absolute;
   z-index: 10;
   background-color: #fff;
-  right: 0;
+  left: 0;
   -webkit-box-shadow: 2px 1px 16px 5px rgba(0, 0, 0, 0.1);
           box-shadow: 2px 1px 16px 5px rgba(0, 0, 0, 0.1);
   padding: 20px 0;
@@ -258,7 +258,7 @@ br {
   margin: 0 auto;
   position: absolute;
   top: -7px;
-  right: 5px;
+  left: 85px;
   width: 0;
   z-index: 2;
 }

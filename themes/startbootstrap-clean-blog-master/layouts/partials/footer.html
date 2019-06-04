@@ -127,16 +127,18 @@
     $(".post-row").css("height", maxHeight + 20 + "px");
   }
 
-  var headTitle = $(".m-header .list-heading h1").text();
-  console.log(headTitle);
-  var $con = $(".sub-container, .sub-container-header, .sub-header");
-  if(headTitle !== "Posts") {
-    $(".main-container, .m-header, .m-container-header").remove();
-    $con.show();
+
+  /* 페이지 구분해서 컨텐츠 출력하기 (--> 더 좋은 방법 찾아야함..ㅠ) */
+  var locationPath = location.pathname.split("/")[1];
+  var $subCon = $(".sub-container, .sub-container-header, .sub-header");
+  var $mainCon = $(".main-container, .m-header, .m-container-header");
+  if(locationPath === "tags" || locationPath === "test") {
+    $mainCon.remove();
+    $subCon.show();
   }
   else {
-    $con.remove();
-  }  
+    $subCon.remove();
+  }
 </script>
 
 {{ template "_internal/google_analytics.html" . }}
