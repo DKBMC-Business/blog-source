@@ -697,13 +697,12 @@ a:hover, a:focus {
   background-color: #176db5;
 }
 
-
-
-/* resource 페이지 */
+/*resource & solution Common*/
 .resource-header {
   margin-top: 60px;
   text-align: center;
 }
+/*solution*/
 .solution_part-logo{
   height:8rem;
 }
@@ -711,14 +710,33 @@ a:hover, a:focus {
   width:auto;
   height:100%;
 }
-.resource-form{    
-  
+/*resource*/
+.resource-detail_wrap{
+  display:flex;
+  margin: 2rem 0;
+}
+.resource-detail_item{
+  width:50%;
+  text-align: center;
+}
+.resource-detail_item p{
+  border-top: 1px solid #cccccc;
+  padding-top: 20px;
+  font-weight: 600;
+}
+
+.resource-detail_item + .resource-detail_item{
+  margin-left:5rem;
+}
+
+.file-img_wrap{
+  width:70%;
+  margin:0 auto; 
 }
 .form-container{
-  width:40%;
+  width:100%;
   display:flex;
   flex-flow:column;
-  margin:0 auto;
 }
 .input-item{
   width: 100%;
@@ -733,40 +751,60 @@ a:hover, a:focus {
   border-style:solid;
   border:none;
   border-width:1px;
-  border:1px solid rgba(0,0,0,12%);
+  border:1px solid #cccccc;
   border-radius: .5rem;
   padding:.85rem 1rem;
   font-size:1.8rem;
-  color:rgba(0,0,0,87%);
+  font-weight: 600;
+  color:#176db5;
+}
+.input-item input[type="text"]::placeholder,
+.input-item input[type="email"]::placeholder{
+  font-weight: 400; 
+}
+.input-item input[type="text"]::-webkit-input-placeholder,
+.input-item input[type="text"]:-ms-input-placeholder,
+.input-item input[type="text"]:-mos-input-placeholder,
+.input-item input[type="email"]::-webkit-input-placeholder,
+.input-item input[type="email"]:-ms-input-placeholder,
+.input-item input[type="email"]:-mos-input-placeholder{
+  font-weight: 400; 
+  color:#cccccc;
 }
 .input-item input[type="text"]:focus,
-.input-item input[type="email"]:focuse{
+.input-item input[type="email"]:focus{
   border:2px solid #176db5;
-  
 }
-
-.input-item input[type="text"]:focus + label,
-.input-item input[type="email"]:focuse + label{
-  display:block;
-}     
 .input-item button[type="submit"]{
-  padding:.5rem 1rem;
+  padding:.85rem 1rem;
   background-color:#176db5;
   color:white;
   box-shadow: none;
   border:none;
 }
 .input-item + .input-item{
-  margin-top:.85rem;
+  margin-top:1rem;
 }
 
 @media all and (max-width: 767px) {
   .resource-header {
     margin-top: 50px;
   }
-  .form-container{
+  .form-container{      
     width:100%; 
-  }         
+  } 
+  .resource-detail_wrap{
+    display:flex;
+    flex-flow:column;
+  
+  } 
+  .resource-detail_item{
+    width:100%;
+  } 
+  .resource-detail_item + .resource-detail_item{
+    margin-left:0rem;
+    margin-top:3rem;
+  }      
 }
 
 .resource-container {}
