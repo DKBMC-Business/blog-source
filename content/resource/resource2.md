@@ -21,6 +21,9 @@ draft = false
 #썸네일 이미지 URL
 image = "http://www.dkbmc.com/gnuboard5/data/file/dkboard/833385916_ktBKpLVP_0e4d53cdb0bcd894c9bd1ddebbd8ca7718cab351.jpg"
 
+# true : form 보이게 / false : form 안보이게
+form = true
+
 comments = true
 date = 2019-06-04T10:38:26+09:00
 +++

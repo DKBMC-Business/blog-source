@@ -24,6 +24,9 @@ image = "http://www.dkbmc.com/lib/imgs/solution/solution06.jpg"
 #솔루션 로고 이미지 URL
 logoImage = "http://www.dkbmc.com/lib/imgs/solution/salesforce_logo.png"
 
+# true : form 보이게 / false : form 안보이게
+form = false
+
 comments = true
 date = 2019-06-04T10:18:48+09:00
 +++

@@ -21,6 +21,9 @@ draft = false
 #썸네일 이미지 URL
 image = ""
 
+# true : form 보이게 / false : form 안보이게
+form = false
+
 comments = true
 date = {{.Date}}
 +++
