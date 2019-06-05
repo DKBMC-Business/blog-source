@@ -704,10 +704,69 @@ a:hover, a:focus {
   margin-top: 60px;
   text-align: center;
 }
+.solution_part-logo{
+  height:8rem;
+}
+.solution_part-logo > img {
+  width:auto;
+  height:100%;
+}
+.resource-form{    
+  
+}
+.form-container{
+  width:40%;
+  display:flex;
+  flex-flow:column;
+  margin:0 auto;
+}
+.input-item{
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+}
+.input-item label{
+  display:none;
+}
+.input-item input[type="text"],
+.input-item input[type="email"]{
+  border-style:solid;
+  border:none;
+  border-width:1px;
+  border:1px solid rgba(0,0,0,12%);
+  border-radius: .5rem;
+  padding:.85rem 1rem;
+  font-size:1.8rem;
+  color:rgba(0,0,0,87%);
+}
+.input-item input[type="text"]:focus,
+.input-item input[type="email"]:focuse{
+  border:2px solid #176db5;
+  
+}
+
+.input-item input[type="text"]:focus + label,
+.input-item input[type="email"]:focuse + label{
+  display:block;
+}     
+.input-item button[type="submit"]{
+  padding:.5rem 1rem;
+  background-color:#176db5;
+  color:white;
+  box-shadow: none;
+  border:none;
+}
+.input-item + .input-item{
+  margin-top:.85rem;
+}
+
 @media all and (max-width: 767px) {
   .resource-header {
     margin-top: 50px;
   }
+  .form-container{
+    width:100%; 
+  }         
 }
 
 .resource-container {}

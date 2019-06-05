@@ -21,6 +21,9 @@ draft = false
 #썸네일 이미지 URL
 image = "http://www.dkbmc.com/lib/imgs/solution/solution01.jpg"
 
+#솔루션 로고 이미지 URL
+logoImage = "http://www.dkbmc.com/lib/imgs/solution/salesforce_logo.png"
+
 comments = true
 date = 2019-06-03T17:29:14+09:00
 +++
