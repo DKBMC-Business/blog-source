@@ -402,6 +402,7 @@ br {
   margin-bottom: 10px;
   min-width: 30px;
   display: inline-block;
+  white-space: nowrap;
 }
 
 .preview-dimmer {
@@ -745,6 +746,10 @@ a:hover, a:focus {
 }
 .input-item label{
   display:none;
+}
+.input-item input{
+  -webkit-appearance:none;
+  -webkit-border-radius:0
 }
 .input-item input[type="text"],
 .input-item input[type="email"]{
