@@ -10,10 +10,10 @@ br {
 
 /* Logo */
 .logo-img {
-  width: 105px;
-  height: auto;
+  width: auto;
+  height: 27px;
   float: left;
-  margin-right: 5px;
+  margin-left: 10px;
 }
 
 /* Nav Bar */
@@ -32,6 +32,9 @@ br {
 
 .navbar-custom .navbar-brand {
   color: #777 !important;
+  display: inline-block;
+  height: 100%;
+  padding: 1.5rem 1rem;
 }
 
 .navbar-custom .navbar-brand:hover, .navbar-custom .navbar-brand:focus {
@@ -55,7 +58,10 @@ br {
 
 @media all and (max-width: 767px) {
   .intro-header {
-    margin-top: 50px;
+    margin-top: 57px;
+  }
+  .logo-img {
+    margin-left: 5px;
   }
 }
 
