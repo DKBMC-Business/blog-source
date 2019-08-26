@@ -58,7 +58,7 @@ br {
 
 @media all and (max-width: 767px) {
   .intro-header {
-    margin-top: 57px;
+    margin-top: 60px;
   }
   .logo-img {
     margin-left: 5px;
@@ -192,7 +192,7 @@ br {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(0, 133, 161, 0.08);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .intro-header .site-heading.detail-heading {
@@ -685,6 +685,47 @@ a:hover, a:focus {
 }
 
 /* Footer DKBMC 홈페이지 링크 */
+.DK-biz__footer {
+  padding-top: 0;
+}
+.DK-biz__footer .DK-link__wrap {
+  text-align: center;
+  background-color: #f5f8fa;
+  padding: 22px 0;
+  border-bottom: 1px solid #eee;
+}
+.DK-biz__footer .DK-link__wrap .DK-link__nav {}
+.DK-biz__footer .DK-link__wrap .DK-link__nav a {
+  border-right: 1px solid #bfbfbf;
+  color: #707070;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: normal;
+  padding: 12px 30px;
+}
+.DK-biz__footer .DK-link__wrap .DK-link__nav a:hover {
+  text-decoration: none;
+  opacity: 0.65;
+}
+.DK-biz__footer .DK-link__wrap .DK-link__nav a .DK-link__arrow {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.65;
+  margin-left: 3px;
+  margin-bottom: -3px;
+}
+.DK-biz__footer .DK-link__wrap .DK-link__nav a:last-of-type {
+  border-right: 0;
+}
+
+.DK-biz__footer .DK-SNS__wrap {
+  padding-top: 40px;
+}
+
 .dkhome-link {
   position: relative;
   display: inline-block;
