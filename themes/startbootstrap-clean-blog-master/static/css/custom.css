@@ -78,7 +78,7 @@ br {
 
 .intro-header.main-header .site-heading {
   background-color: transparent;
-  padding: 200px 0;
+  padding: 150px 0;
 }
 
 @media all and (max-width: 767px) {
@@ -599,6 +599,10 @@ a:hover, a:focus {
 
 .content-line blockquote p {
   margin-top: 0;
+}
+
+.content-line hr.title__hr {
+  border-width: 4px;
 }
 
 .content-line ol,

@@ -27,7 +27,7 @@ date = 2019-09-06T10:00:02+09:00
 
 <!-- 게시글 내용 -->
 # Lightning Platform이란?
---------------
+<hr class="title__hr"/>
 
 “누구나 Lightning Platform에서 단시간 내 쉽게 앱을 구축할 수 있습니다.”
 
