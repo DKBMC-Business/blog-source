@@ -4,6 +4,12 @@ html, body {
   min-width: 320px;
 }
 
+@media all and (max-width: 500px) {
+  html {
+    font-size: 9px;
+  }
+}
+
 br {
   opacity: 0;
 }
@@ -85,6 +91,9 @@ br {
   .intro-header.main-header .site-heading {
     padding: 120px 0;
   }
+  .content-line iframe {
+    height: 200px;
+  }
 }
 
 .intro-header.main-header .site-heading h1 {
@@ -104,6 +113,9 @@ br {
 @media all and (max-width: 767px) {
   .intro-header .site-heading.list-heading {
     padding: 70px 0;
+  }
+  .intro-header.main-header .site-heading h1 {
+    font-size: 4.5rem;
   }
 }
 
@@ -148,7 +160,7 @@ br {
   font-size: 4.5rem;
   text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
   margin-bottom: 30px;
-  line-height: 1.25;
+  line-height: 1.4;
 }
 
 @media all and (max-width: 767px) {
@@ -648,6 +660,12 @@ a:hover, a:focus {
   line-height: 1.5;
 }
 
+@media all and (max-width: 768px) {
+  .content-line h1 {
+    font-size: 3.25rem;
+  }
+}
+
 .content-line hr {
   border-width: 2px;
   border-color: #176db5;
@@ -910,3 +928,7 @@ a:hover, a:focus {
 }
 
 .resource-container {}
+
+.navbar-toggle {
+  margin-top: 13px;
+}
