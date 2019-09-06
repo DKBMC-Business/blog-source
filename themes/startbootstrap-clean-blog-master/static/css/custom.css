@@ -593,6 +593,14 @@ a:hover, a:focus {
   opacity: 0.75;
 }
 
+.content-line blockquote {
+  border-color: #176db5;
+}
+
+.content-line blockquote p {
+  margin-top: 0;
+}
+
 .content-line ol,
 .content-line ul {
   padding-left: 0;
@@ -618,7 +626,7 @@ a:hover, a:focus {
   font-size: 1.8rem;
   font-weight: normal;
   line-height: 1.8;
-  word-break: break-all;
+  /*word-break: break-all;*/
 }
 
 .content-line ul {

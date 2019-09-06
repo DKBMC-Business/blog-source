@@ -79,5 +79,5 @@ Service Cloud는 컨텍센터에서 요구하는 다양한 지표를 분석하�
 
 ### 이정도면 우리회사도 한번 도입해봐야 하지 않을까요?
 
-<a href="http://www.dkbmc.com/contact.html" class="content-btn__a">
+<a href="http://www.dkbmc.com/contact.html" class="content-btn__a" target="_blank">
 문의하기</a>
