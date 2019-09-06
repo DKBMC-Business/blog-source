@@ -148,6 +148,7 @@ br {
   font-size: 4.5rem;
   text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
   margin-bottom: 30px;
+  line-height: 1.25;
 }
 
 @media all and (max-width: 767px) {
@@ -577,11 +578,34 @@ a:hover, a:focus {
 
 /* 포스트 작성글 스타일 */
 .content-line {
-  /* TABLE */
+  padding-bottom: 120px;
+}
+.content-line .content-btn__a {
+  display: inline-block;
+  padding: 5px 12px;
+  color: #fff;
+  background-color: #176db5;
+  border-radius: 3px;
+  text-decoration: none;
+  transition-duration: 0.3s;
+}
+.content-line .content-btn__a:hover {
+  opacity: 0.75;
+}
+
+.content-line ol,
+.content-line ul {
+  padding-left: 0;
+}
+
+.content-line ol li,
+.content-line ul li {
+  margin-bottom: 50px;
 }
 
 .content-line img {
   max-width: 100%;
+  display: block;
 }
 
 .content-line a {
