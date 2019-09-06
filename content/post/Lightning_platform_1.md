@@ -49,7 +49,7 @@ Lightning Platform은 기본적으로 개발을 위한 Code 없이 제공되는 
 
 <br/>
 
-> Lightning Platform을 이용하실 때 유용한 정보가 몇가지 있는데, 하나는 사용자 교육을 위한 Trailhead와 APP 공유를 위한 AppExchange입니다.
+Lightning Platform을 이용하실 때 유용한 정보가 몇가지 있는데, 하나는 사용자 교육을 위한 Trailhead와 APP 공유를 위한 AppExchange입니다.
 
 <br/>
 
