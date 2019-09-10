@@ -604,6 +604,10 @@ a:hover, a:focus {
 .content-line iframe + p {
   margin-top: 5rem;
 }
+
+.content-line h4 {
+  color: #666;
+}
 .content-line .content-btn__a:hover {
   opacity: 0.75;
 }
