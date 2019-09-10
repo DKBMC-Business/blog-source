@@ -594,7 +594,7 @@ a:hover, a:focus {
 }
 .content-line .content-btn__a {
   display: inline-block;
-  padding: 5px 12px;
+  padding: 5px 24px;
   color: #fff;
   background-color: #176db5;
   border-radius: 3px;
