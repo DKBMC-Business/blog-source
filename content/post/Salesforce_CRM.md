@@ -1,0 +1,140 @@
++++
+#카테고리
+categories = [
+    "Salesforce",
+]
+
+#작성자
+authors = [
+    "배창욱",
+]
+
+#제목
+title = "Salesforce CRM 클라우드 솔루션"
+
+#설명
+description = "Salesforce가 제공하는 전체 솔루션과 관련 내용을 설명합니다."
+
+#공개: false / 비공개: true
+draft = false
+
+#썸네일 이미지 URL
+image = "/img/content/CRM_thumb.jpg"
+
+comments = true
+date = 2019-10-01T10:34:32+09:00
++++
+
+<!-- 게시글 내용 -->
+<hr class="title__hr"/>
+이 글에서는 Salesforce가 제공하는 전체 솔루션과 관련 내용을 설명합니다.
+
+이 블로그의 내용은 세일즈포스 공식 리셀링 파트너사인 DK BMC가 세일즈포스 솔루션에 관하여 작성한 내용이며 주관적인 의견이 담길 수 있음을 말씀 드립니다.
+
+Salesforce는  글로벌 1위 CRM 솔루션 벤더사 입니다. 국내에서는  CRM  하면 좀 식상해 하는 분들도 있을지 모르겠지만, 최근 디지털 전환(Digital Transformation) 시대를 맞아 전 산업 분야에서의 Salesforce의 혁신에 대한 높은 관심과 지속적인 매출 성장이 시사하는 바는 크다 하겠습니다.
+
+<br/>
+
+### <세일즈포스의 년도별 매출 성장과 다양한 수상 이력들>
+------------------------
+세일즈포스에 대해 이해하기 위해 먼저 세일즈포스가 제공하는 솔루션과 포트폴리오를 먼저 알아 보고자 합니다.
+
+![CRM1 IMAGE](/img/content/CRM_1.jpg)
+
+다음은 세일즈포스가 제공하는 솔루션 카테고리 입니다.
+
+![CRM2 IMAGE](/img/content/CRM_2.png)
+
+<br/>
+
+### <세일즈포스의 제품 포트폴리오>
+------------------------
+세일즈포스 솔루션의 포트폴리오는 일반적인 B2B CRM 솔루션들이 갖는 영업 활동 관리 또는 영업 기회 관리라고 하는 SFA(Sales Force Automation, 영업 자동화 관리) 솔루션의 범주를 넘어 고객이 디지털 환경에서 기업을 대면하고 기업의 제품과 서비스에 깊게 관계를 갖고 참여할 수 있도록 도와주는 디지털 고객 참여 솔루션(Digital Customer Engagement Solution)임을 알 수 있습니다.
+
+여기서, 고객 참여(Customer Engagement)의 의미에 대해 익숙하지 않은 독자를 위해 위키백과의 정의를 들어 설명을 드리면… <br/>
+([https://en.wikipedia.org/wiki/Customer_engagement](https://en.wikipedia.org/wiki/Customer_engagement))
+
+“**Customer engagement** is a business communication connection between an external stakeholder (consumer) and an organization (company or brand) through various channels of correspondence. This connection can be a reaction, interaction, effect or overall customer experience, which takes place online and offline. The term can also be used to define customer-to-customer correspondence regarding a communication, product, service or brand. However, the latter dissemination originates from a business-to-consumer interaction resonated at a subconscious level.”
+
+> “고객 참여는 다양한 커뮤니케이션 채널을 통해 외부 이해 관계자 (소비자)와 조직 (회사 또는 브랜드) 간의 비즈니스 커뮤니케이션 연결입니다. 이 연결은 온라인, 오프라인에서 이루어지는 반응, 상호 작용, 효과 또는 전반적인 고객 경험이 될 수 있습니다. 이 용어는 커뮤니케이션, 제품, 서비스 또는 브랜드와 관련하여 고객과 고객 간의 소통을 정의하는 데에도 사용될 수 있습니다. 그러나 후자의 전파( 의역: 고객 간에 정보나 지식이 퍼져 나가는 것)은 잠재 의식 수준에서 공감 된 B2C 상호 작용에서 비롯됩니다.”
+
+“Online customer engagement is qualitatively different from offline engagement as the nature of the customer’s interactions with a brand, company and other customers differ on the internet. Discussion forums or blogs, for example, are spaces where people can communicate and socialise in ways that cannot be replicated by any offline interactive medium. Online customer engagement is a social phenomenon that became mainstream with the wide adoption of the internet in the late 1990s, which has expanded the technical developments in broadband speed, connectivity and social media. These factors enable customer behaviour to regularly engage in online communities revolving, directly or indirectly, around product categories and other consumption topics. This process leads to a customer’s positive engagement with the company or offering, as well as the behaviours associated with different degrees of customer engagement.”
+
+> “온라인 고객 참여는 브랜드, 회사 및 기타 고객과의 고객 상호 작용의 특성이 인터넷에서 다르기 때문에 오프라인 참여와 질적으로 다릅니다. 예를 들어 토론 포럼이나 블로그는 오프라인 대화 형 매체로는 복제할 수 없는 방식으로 사람들이 의사 소통하고 교류할 수 있는 공간입니다. 온라인 고객 참여는 1990 년대 후반 인터넷의 광범위한 채택으로 인해 주류가 된 사회 현상으로 광대역 속도, 연결성 및 소셜 미디어의 기술 개발을 확대했습니다. 이러한 요소를 통해 고객 행동은 제품 카테고리 및 기타 소비 주제를 중심으로 직접 또는 간접적으로 온라인 커뮤니티에 정기적으로 참여할 수 있습니다. 이 프로세스는 회사 또는 오퍼링에 대한 고객의 긍정적 인 참여는 물론 다양한 수준의 고객 참여와 관련된 행동으로 이어집니다.”
+
+<br/>
+
+위키백과의 설명을 이해하면 Customer Engagement 라는 단어가 왜 고객 참여로 해석되는 지 알 수 있습니다. 
+
+고객 참여(Customer Engagement)는 기업이 자신의 제품과 브랜드 및 서비스에 대한 온/오프 라인 상에서의 소통에 고객을 참여시키고, 나아가 그 고객이 다른 고객에게 전파시켜 다수의 고객을 기업과의 소통에 참여시키게 하는 것을 의미하며 이러한 고객과의 소통은 모든 기업이 나가고자 하는 방향일 것 입니다 (여기서 모든 기업이라고 지칭하면 부품이나 OEM  제품을 생산하는 B2B 기업은 여기에 해당하지 않는다고 생각할 수도 있겠지만 B2B 기업도 자신의 제품에 대한 소통(Communication)에 더 많은 B2B 비지니스 파트너를 참여 시키는 것이 성장의 원천일 뿐 아니라 반도체, 디스플레이, 베터리 등과 같이 부품이 제품의 품질과 직결되는 제품의 경우 고객 참여는 기업 브랜드 이미지 재고와 매출로 연결될 것 입니다) 
+
+하지만, 이러한 고객 참여는 기존의 전통적인 채널(대면, 전화, 홈페이지 등)에서만 벌어지는 것이 아니라 Facebook과 같은 소셜 네트워크 서비스,  네이버,구글과 같은  인터넷 검색 서비스, 모바일 앱 등 다양한 디지털 채널에서 이루어지며 이러한 채널의 등장과 발전 속도는 일반 기업이 자체적인 대응을 통해 따라 갈 수 있는 수준을 이미 넘어섰고, 지속적인 개선과 변화에 능동적으로 대응해야 한다는 과제를 남기게 됩니다.
+
+이러한 과제를 해결하기 위해 세일즈포스는 2가지 해결책을 제품 전략에 담아 놓았습니다. 
+
+첫번째 해결책은 고객 참여(Customer Engagement)의 다양한 변화와 개선 요구에 빠르게 대응하기 위해서 개별 기능을 위한 별도의 솔루션을 따로 제공하는 것이 아니라 확장가능한 클라우드 플랫폼을 제공하고 이 기반위에 다양한 솔루션을 올려 제공하는 CRM Platform전략을 선택하였고 이 전략을 실현한 제품이 Salesforce Lightning Platform입니다 (Salesforce Lightning Platform 이란? 참조). 이를 통해, 세일즈포스는 지속적으로 새로운 기능과 기존 기능의 개선을 플랫폼을 통해 고객에게 제공할 수 있고, 고객은 필요한 기능을 Lightning Platform의 개발 기능을 활용해 획득할 수 있습니다.
+
+<br/>
+
+
+### < 다양한 기능과 확장성을 제공하는 Salesforce Lightning Platform 개념도> 
+-----------------------------------
+다음 해결책은 세일즈포스가 클라우드 서비스 만을 제공하는 이유와 연결되어 있습니다. 클라우드 서비스는 물리적 시스템과 시스템 운영 및 개선에 대한 책임이 서비스를 제공하는 세일즈포스에게 있기 때문에 새로운 서비스와 기능 개선도 세일즈포스가 직접 고객이 사용하는 환경에 바로 적용이 가능 합니다. 이는 시스템 업그레이드와 동일한 효과를 고객에게 제공하며, 이러한 온라인 업그레이드를 통해 고객은 변화되는 고객 참여(Customer Engagement) 방식과 새로운 기능을 지속적으로 제공 받게 됩니다. 물론, 업그레이드 시 고객이 개발을 통해 구현한 기능에는 영향을 주지 않고 업그레이드가 진행되니 걱정할 필요는 없습니다.
+
+<br/>
+![CRM3 IMAGE](/img/content/CRM_3.jpg)
+
+<br/>
+
+### <세일즈포스는 매년 3회 메이저 업그레이드를 진행하며 자동 업그레이드를 제공해 고객의 사용 환경에는 전혀 영향 없이 업그레이드 됨>
+------------------------------
+Salesforce Lightning Platform을 통해 고객은 고객 참여를 위한 지속적인 변화와 혁신을 빠르게 달성할 수 있는 견고한 토대를 고객에게 제공하며, 이 플랫폼을 근간으로 통합된 다양한 솔루션을 제공하게 됩니다. 이렇게 제공되는 솔루션의 가장 큰 특징은 근간이 되는 Lightning Platform의 속성을 상속받아 보다 풍부한 기 정의된 기능 뿐만 아니라 유연한 확장성도 함께 제공된다는 것 입니다.
+
+![CRM4 IMAGE](/img/content/CRM_4.jpg)
+![CRM5 IMAGE](/img/content/CRM_5.jpg)
+
+그럼 이제 세일즈포스가 제공하는 다양한 솔루션에 대한 내용을 다음의 링크를 통해 확인해 보시기 바랍니다.
+
+<nav class="CRM__list">
+    <a href="http://biz.dkbmc.com/categories/sales-cloud/" target="_blank">
+        <img src="/img/content/CRM_icon1.png" alt="SALES"/>
+    </a>
+    <a href="http://biz.dkbmc.com/categories/service-cloud/" target="_blank">
+        <img src="/img/content/CRM_icon2.png" alt="SERVICE"/>
+    </a>
+    <a href="http://biz.dkbmc.com/categories/lightning-platform/" target="_blank">
+        <img src="/img/content/CRM_icon6.png" alt="PLATFORM&ECOSYSTEM"/>
+    </a>
+    <a href="javascript:void(0)" class="preparing">
+        <img src="/img/content/CRM_icon3.png" alt="MARKETING"/>
+    </a>
+    <a href="javascript:void(0)" class="preparing">
+        <img src="/img/content/CRM_icon4.png" alt="COMMERCE"/>
+    </a>
+    <a href="javascript:void(0)" class="preparing">
+        <img src="/img/content/CRM_icon5.png" alt="ENGAGAMENT"/>
+    </a>
+    <a href="javascript:void(0)" class="preparing">
+        <img src="/img/content/CRM_icon7.png" alt="INTEGRATION"/>
+    </a>
+    <a href="javascript:void(0)" class="preparing">
+        <img src="/img/content/CRM_icon8.png" alt="ANALYTICS"/>
+    </a>
+    <a href="javascript:void(0)" class="preparing">
+        <img src="/img/content/CRM_icon9.png" alt="INDUSTRIES"/>
+    </a>
+    <a href="javascript:void(0)" class="preparing">
+        <img src="/img/content/CRM_icon10.png" alt="COMMUNITIES"/>
+    </a>
+    <a href="javascript:void(0)" class="preparing">
+        <img src="/img/content/CRM_icon11.png" alt="COLLABORATION"/>
+    </a>
+    <a href="javascript:void(0)" class="preparing">
+        <img src="/img/content/CRM_icon12.png" alt="ENABLEMENT"/>
+    </a>
+</nav>
+
+
+
+
+

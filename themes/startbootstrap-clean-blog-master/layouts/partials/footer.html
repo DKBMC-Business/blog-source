@@ -148,6 +148,12 @@
   else {
     $subCon.remove();
   }
+
+  /* CRM 포스트 비활성화 링크 관련 */
+  $(".content-line .CRM__list > a.preparing").click(function(e){
+    e.preventDefault();
+    alert("준비중입니다.");
+  });
 </script>
 
 {{ template "_internal/google_analytics.html" . }}
