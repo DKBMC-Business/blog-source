@@ -34,7 +34,7 @@ Marketing cloud is the platform for delivering relevant, personalized journeys a
 
 ### Salesforce 마케팅 클라우드가 제공하는 다양한 기능
 -------------------------
-![마케팅클라우드 이미지 1](/img/content/marketing_1-1.png)
+![마케팅클라우드 이미지 1](/img/content/marketing1.png)
 (Email Studio, Mobile Studio, Advertizing Studio, Social Studio, Salesforce Data Studio, Journey Builder, Salesforce DMP)
 
 <br/>
