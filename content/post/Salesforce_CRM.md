@@ -105,7 +105,7 @@ Salesforce Lightning Platform을 통해 고객은 고객 참여를 위한 지속
     <a href="http://biz.dkbmc.com/categories/lightning-platform/" target="_blank">
         <img src="/img/content/CRM_icon6.png" alt="PLATFORM&ECOSYSTEM"/>
     </a>
-    <a href="javascript:void(0)" class="preparing">
+    <a href="http://biz.dkbmc.com/categories/marketing-cloud/">
         <img src="/img/content/CRM_icon3.png" alt="MARKETING"/>
     </a>
     <a href="javascript:void(0)" class="preparing">

@@ -52,6 +52,7 @@ Marketing cloud is the platform for delivering relevant, personalized journeys a
 Platform - Salesforce Marketing Cloud는 효과적인 마케팅 전략을 세우기 위해 활용할 수 있는 6 가지 기능을 제공합니다. 아래에서 각기 다른 기능에 대한 설명 입니다.
 
 <br/>
+
 - **Journey Builder** <br/>
 Journey 빌더를 사용하면 일대일 여정을 대규모로 구축 할 수 있습니다. 고객 규모에 관계없이 모든 개인에게 단순하거나 복잡한 여정을 제공할 수 있습니다. 영업 및 서비스 활동을 여정에 바로 통합할 수도 있습니다. Journey Builder를 사용하면 특정 목표를 정의하고 CTR, 타이밍, 채널, 전환 등을 측정 할 수 있습니다. 진행 상황을 평가하고 성능을 최적화 할 수 있습니다.
 
