@@ -798,6 +798,24 @@ a:hover, a:focus {
   margin-bottom: 50px;
 }
 
+.content-line .content-tableau {
+  width: 100%;
+  padding-left: 45%;
+  position: relative;
+  margin-top: 45px;
+}
+.content-line .content-tableau > p {
+  margin-top: 8px;
+}
+.content-line .content-tableau > img {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 40%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 /* TOP Button */
 .btn-top {
   display: none;
