@@ -422,6 +422,7 @@ br {
   min-width: 30px;
   display: inline-block;
   white-space: nowrap;
+  margin-right: 3px;
 }
 
 .preview-dimmer {

@@ -1,7 +1,7 @@
 +++
 #카테고리
-tags = [
-    "Service Works",
+categories = [
+    "ServiceWorks",
 ]
 
 #작성자

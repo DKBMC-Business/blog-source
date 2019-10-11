@@ -1,6 +1,7 @@
 +++
 #카테고리
 categories = [
+    "Salesforce",
     "Lightning Platform",
 ]
 
