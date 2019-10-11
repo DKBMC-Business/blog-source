@@ -19,7 +19,7 @@ description = "DK BMC의 ServiceWorks는 중소/중견 기업을 위한 클라�
 draft = false
 
 #썸네일 이미지 URL
-image = "https://images.unsplash.com/photo-1525182008055-f88b95ff7980?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+image = "/img/content/serviceWorks_thumb.jpg"
 
 # true : form 보이게 / false : form 안보이게
 form = false

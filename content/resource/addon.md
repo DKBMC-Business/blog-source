@@ -16,7 +16,7 @@ title = "Salesforce Add-On 솔루션"
 description = ""
 
 #공개: false / 비공개: true
-draft = false
+draft = true
 
 #썸네일 이미지 URL
 image = "http://www.dkbmc.com/lib/imgs/solution/solution02.jpg"

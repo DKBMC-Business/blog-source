@@ -16,7 +16,7 @@ title = "AWS 클라우드 서비스와 구축 서비스"
 description = ""
 
 #공개: false / 비공개: true
-draft = false
+draft = true
 
 #썸네일 이미지 URL
 image = "http://www.dkbmc.com/lib/imgs/solution/solution03.jpg"

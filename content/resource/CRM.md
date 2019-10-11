@@ -16,7 +16,7 @@ title = "Salesforce CRM 솔루션과 컨설팅 서비스"
 description = "고객에 대한 정확한 이해는 기업의 성공을 위한 가장 중요한 요소 입니다."
 
 #공개: false / 비공개: true
-draft = false
+draft = true
 
 #썸네일 이미지 URL
 image = "http://www.dkbmc.com/lib/imgs/solution/solution01.jpg"

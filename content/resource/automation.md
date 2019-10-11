@@ -16,7 +16,7 @@ title = "SFA(Sales Force Automation, 영업 자동화 시스템) 시스템 기�
 description = ""
 
 #공개: false / 비공개: true
-draft = false
+draft = true
 
 #썸네일 이미지 URL
 image = "http://www.dkbmc.com/lib/imgs/solution/solution06.jpg"
