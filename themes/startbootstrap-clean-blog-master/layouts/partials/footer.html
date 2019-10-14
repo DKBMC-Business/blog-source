@@ -66,7 +66,7 @@
 
   removePreviewImg();
   $(window).on("load resize", function () {
-    var winWidth = window.innerWidth;
+    let winWidth = window.innerWidth;
     if(winWidth <= 1199) {
       setTimeout(function(){
         postAlign(2);
@@ -83,7 +83,7 @@
 
   /* Top Button 활성 & 비활성 */
   $(document).on("ready scroll",function(){
-    var scrollTop = $(document).scrollTop();
+    let scrollTop = $(document).scrollTop();
     if(scrollTop >= 300) {
       $(".btn-top").addClass("active");
     }
@@ -94,9 +94,9 @@
 
   /* 포스트 summary 이미지 관련 */
   function removePreviewImg() {
-    var previewImg = $(".post-preview__container .post-thumb__img");
+    let previewImg = $(".post-preview__container .post-thumb__img");
     previewImg.each(function () {
-      var thisSrc = $(this).attr("src");
+      let thisSrc = $(this).attr("src");
       if (thisSrc == "") {
         $(this).closest(".post-preview__container").children(".post-preview__wrap").css("padding-top", "30px");
         $(this).hide().remove();
@@ -112,17 +112,17 @@
   
   /* 포스트 summary 정렬 관련 */
   function postAlign(num) {
-    var heightArray = [];
-    for (var i = 0; i < num ; i++) {
-      var $box = $(".post-preview:nth-of-type("+ num +"n+" + i + ")");
-      var boxTarget = ".post-preview:nth-of-type("+ num +"n+" + i + ")";
+    let heightArray = [];
+    for (let i = 0; i < num ; i++) {
+      let $box = $(".post-preview:nth-of-type("+ num +"n+" + i + ")");
+      let boxTarget = ".post-preview:nth-of-type("+ num +"n+" + i + ")";
       if( i === 0 ) {
         $box = $(".post-preview:nth-of-type("+ num +"n)");
         boxTarget = ".post-preview:nth-of-type("+ num +"n)";
       }
-      var boxHeight = $box.eq(0).outerHeight();
-      for (var n = 1; n < $box.length; n++) {
-        var prevHeight = 0;
+      let boxHeight = $box.eq(0).outerHeight();
+      for (let n = 1; n < $box.length; n++) {
+        let prevHeight = 0;
         $box.eq(n).prevAll(boxTarget).each(function () {
           prevHeight += $(this).outerHeight();
         });
@@ -132,15 +132,15 @@
       $box.eq(0).css("top", 0);
       heightArray.push(boxHeight);
     }
-    var maxHeight = Math.max.apply(null, heightArray);
+    let maxHeight = Math.max.apply(null, heightArray);
     $(".post-row").css("height", maxHeight + 20 + "px");
   }
 
 
   /* 페이지 구분해서 컨텐츠 출력하기 (--> 더 좋은 방법 찾아야함..ㅠ) */
-  var locationPath = location.pathname.split("/")[1];
-  var $subCon = $(".sub-container, .sub-container-header, .sub-header");
-  var $mainCon = $(".main-container, .m-header, .m-container-header");
+  let locationPath = location.pathname.split("/")[1];
+  let $subCon = $(".sub-container, .sub-container-header, .sub-header");
+  let $mainCon = $(".main-container, .m-header, .m-container-header");
   if(locationPath == "tags" || locationPath == "resource") {
     $mainCon.remove();
     $subCon.show();
@@ -154,10 +154,20 @@
     e.preventDefault();
     alert("준비중입니다.");
   });
+  
   if($(".site-heading.list-heading h1").text().replace(/\s/g,'') == "Posts") {
-    console.log($(".site-heading.list-heading").text().replace(/\s/g,''));
     $(".site-heading.list-heading h1").text("Product & Service");
   }
+
+  /**/
+    $(".category-list li a, .main-category li a").each(function(){
+        let thisName = $(this).text().split(""); 
+        let hyphenIndex = thisName.lastIndexOf("-");
+        if(hyphenIndex !== 1) {
+          thisName[hyphenIndex] = " ";
+          $(this).text(thisName.join(""));
+        }
+    });
 </script>
 
 <script type="text/javascript">
