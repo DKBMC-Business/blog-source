@@ -34,7 +34,17 @@
             </div>
           </div>
       </div>
-      <div class="row post-row" style="position:relative;">
+      <div class="main-category__wrap">
+        Category
+        <ul class="main-category">
+            {{ range $.Site.Taxonomies.categories.ByCount }}
+              {{ if .Name }}
+                  <li style="list-style:none;"><a href="/categories/{{ .Name | urlize}}/"> - {{ .Name | title }} <small>({{ .Count }})</small></a></li>
+              {{ end }}
+            {{end}}
+        </ul>
+      </div>
+      <div class="row post-row main-post-row" style="position:relative;">
           {{ $posts := or .Site.Params.PostSummariesFrontPage 12 }}
           {{ range first $posts (where .Data.Pages "Type" "post") }}
               {{ .Render "summary"}}
