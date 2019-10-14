@@ -16,10 +16,10 @@ title = "Tableau"
 description = "DK BMC는 셀프 서비스 비즈니스 인텔리전스 솔루션 분야 선두 업체인 Tableau Software의 리셀러 파트너 입니다."
 
 #공개: false / 비공개: true
-draft = true
+draft = false
 
 #썸네일 이미지 URL
-image = ""
+image = "/img/content/t_1_thumb.jpg"
 
 comments = true
 date = 2019-10-11T17:30:29+09:00
@@ -66,6 +66,16 @@ Tableau 솔루션은 쉬운 사용과 직권적인 UI를 제공해 엑셀을 사
     <img src="/img/content/t_1-2.png" alt=""/>
     <p>Tableau Online은 클라우드 환경에서 Tableau를 사용하고 보다 쉽게 Amazon Redshift, Google BigQuery 등의 클라우드 데이터베이스에 연결할 수 있습니다. Google Analytics, Salesforce 등의 웹 앱 데이터를 자동으로 새로 고칩니다. 온프레미스 데이터베이스에 실시간으로 쿼리하든, 아니면 Tableau Bridge를 사용해 추출 새로 고침을 예약하든 원하는 대로 선택할 수 있습니다.</p>
 </div>
+
+<br/>
+
+### Salesforce와의 완전한 통합
+---------------------------
+Tableau는 세일즈포스와 쉽게 연결해 보다 깊이 있는 CRM 분석이 가능하도록 지원 합니다. 세일즈포스 화면 안에서 다양하고 깊이 있는 분석 뿐 아니라 외부 데이터와의 빠른 연결 및 통합 분석을 통해 지금까지 쉽게 볼 수 없었던 비즈니스 인사이트를 제공합니다. 
+
+![](/img/content/t_1-3.png)
+
+<br/>
 
 <div class="content-tableau">
     <b>Tableau Server</b>
