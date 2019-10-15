@@ -138,15 +138,16 @@
 
 
   /* 페이지 구분해서 컨텐츠 출력하기 (--> 더 좋은 방법 찾아야함..ㅠ) */
-  var locationPath = location.pathname.split("/")[1];
+  // var locationPath = location.pathname.split("/")[1];
+  var locationPath = "{{ .URL }}".split("/")[1];
   var $subCon = $(".sub-container, .sub-container-header, .sub-header");
   var $mainCon = $(".main-container, .m-header, .m-container-header");
   if(locationPath == "tags" || locationPath == "resource") {
-    $mainCon.remove();
-    $subCon.show();
+    //$mainCon.remove();
+    //$subCon.show();
   }
   else {
-    $subCon.remove();
+    //$subCon.remove();
   }
 
   /* CRM 포스트 비활성화 링크 관련 */

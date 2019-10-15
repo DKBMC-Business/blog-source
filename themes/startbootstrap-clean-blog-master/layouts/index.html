@@ -31,7 +31,7 @@
           {{ range first $posts (where .Data.Pages "Type" "post") }}
               {{ .Render "summary"}}
           {{ end }} -->
-          {{ range first 9 .Data.Pages }}
+          {{ range first 9 .Data.Pages.ByPublishDate.Reverse }}
           <div class="post-preview col-lg-4 col-md-6">
               <div class="post-preview__container">
                 {{ if isset .Params "image" }}

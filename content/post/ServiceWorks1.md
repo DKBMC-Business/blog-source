@@ -38,29 +38,51 @@ ServiceWorks를 활용해 고객 서비스 품질 개선 및 서비스 만족도
 
 <br/>
 
-1.&nbsp;Salesforce Service Cloud의 글로벌 선진 서비스 프로세스로 서비스 혁신 기능
+1.&nbsp;**Salesforce Service Cloud의 글로벌 선진 서비스 프로세스로 서비스 혁신 기능**
 
-> ServiceWorks는 글로벌 #1 고객 서비스 관리 솔루션인 Salesforce Service Cloud와 함께 제공됩니다. Salesforce Service Cloud의 글로벌 선진 프로세스와 기능을 활용해 고객 서비스 혁신을 이룰 수 있습니다. 
+ServiceWorks는 글로벌 #1 고객 서비스 관리 솔루션인 Salesforce Service Cloud와 함께 제공됩니다. Salesforce Service Cloud의 글로벌 선진 프로세스와 기능을 활용해 고객 서비스 혁신을 이룰 수 있습니다. 
 
-2.&nbsp;완전한 클라우드 서비스와 구독 방식의 비용 산정을 통한 낮은 비용으로 시작
+![ServiceWorks 이미지 1](/img/content/servicework-1.png)
 
-> ServiceWorks는 CTI 장비 설치 없이 웹브라우저와 IP폰 만으로 콜센터를 구성할 수 있는 완전한 클라우드 서비스입니다. 구독형(Subscription) 비용 청구 방식은 낮은 비용으로 최고의 고객 서비스가 가능해 집니다.
+<br/>
 
-3.&nbsp;장비 구매 및 설치 없이 IVR, 녹취 등 다양한 기능 제공
+2.&nbsp;**완전한 클라우드 서비스와 구독 방식의 비용 산정을 통한 낮은 비용으로 시작**
 
-> 클라우드 환경에서 IVR, ARS, 녹취, 관제 등 콜센터의 주요 기능을 제공합니다. 이를 통해, 보다 빠르게 콜센터를 구축하고 바로 최고의 고객 서비스를 제공할 수 있습니다.(구축형 서비스의 경우 관제 기능 제공 가능)
+ServiceWorks는 CTI 장비 설치 없이 웹브라우저와 IP폰 만으로 콜센터를 구성할 수 있는 완전한 클라우드 서비스입니다. 구독형(Subscription) 비용 청구 방식은 낮은 비용으로 최고의 고객 서비스가 가능해 집니다.
 
-4.&nbsp;웹, 카카오톡, 페이스북 등 다양한 채널 통합 서비스 지원
+![ServiceWorks 이미지 2](/img/content/servicework-2.png)
 
-> 전화 뿐 아니라 웹, 카카오톡, 페이스북 등 다양한 채널을 통합해 서비스할 수 있는 기능을 제공해 다 채널 서비스가 필요한 고객의 운영 인력 및 서비스 비용을 절감할 수 있습니다. 
+<br/>
 
-5.&nbsp;최고의 유연성과 확장성 제공
+3.&nbsp;**장비 구매 및 설치 없이 IVR, 녹취 등 다양한 기능 제공**
 
-> 최소 1명에서 최대 50명의 사용자까지 구독 방식으로 자유롭게 사용 가능하며, 다수 사용자 활용 시 구축 형 콜센터로 이관해 사용보다 효율적인 운영이 가능 합니다.. 
+클라우드 환경에서 IVR, ARS, 녹취, 관제 등 콜센터의 주요 기능을 제공합니다. 이를 통해, 보다 빠르게 콜센터를 구축하고 바로 최고의 고객 서비스를 제공할 수 있습니다.(구축형 서비스의 경우 관제 기능 제공 가능)
 
-6.&nbsp;인사이드 세일즈 업무로의 확장
+![ServiceWorks 이미지 3](/img/content/servicework-3.png)
 
-> 아웃바운드 콜 기능을 활용한 인사이드 세일즈 조직을 위한 기능 제공 및 Salesforce Sales Cloud, Pardot, Marketing Cloud 솔루션과 통합되어 더 많은 기회 및 매출 향상에 활용할 수 있습니다.
+<br/>
+
+4.&nbsp;**웹, 카카오톡, 페이스북 등 다양한 채널 통합 서비스 지원**
+
+전화 뿐 아니라 웹, 카카오톡, 페이스북 등 다양한 채널을 통합해 서비스할 수 있는 기능을 제공해 다 채널 서비스가 필요한 고객의 운영 인력 및 서비스 비용을 절감할 수 있습니다. 
+
+![ServiceWorks 이미지 4](/img/content/servicework-4.png)
+
+<br/>
+
+5.&nbsp;**최고의 유연성과 확장성 제공**
+
+최소 1명에서 최대 50명의 사용자까지 구독 방식으로 자유롭게 사용 가능하며, 다수 사용자 활용 시 구축 형 콜센터로 이관해 사용보다 효율적인 운영이 가능 합니다.. 
+
+![ServiceWorks 이미지 5](/img/content/servicework-5.png)
+
+<br/>
+
+6.&nbsp;**인사이드 세일즈 업무로의 확장**
+
+아웃바운드 콜 기능을 활용한 인사이드 세일즈 조직을 위한 기능 제공 및 Salesforce Sales Cloud, Pardot, Marketing Cloud 솔루션과 통합되어 더 많은 기회 및 매출 향상에 활용할 수 있습니다.
+
+![ServiceWorks 이미지 6](/img/content/servicework-6.jpg)
 
 <br/>
 

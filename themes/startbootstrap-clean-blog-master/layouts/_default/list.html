@@ -1,7 +1,14 @@
 {{ partial "header.html" . }}
 
 <!-- Page Header -->
-<header class="intro-header m-header" style="background-image: url('{{ .Site.BaseURL }}/img/post-bg-1.jpg')">
+<header class="intro-header m-header"
+{{ range where .Pages "Section" "resource" }}
+style="background-image: url('{{ .Site.BaseURL }}/img/resource.jpg')"
+{{end}}
+{{ range where .Pages "Section" "post" }}
+style="background-image: url('{{ .Site.BaseURL }}/img/post-bg-1.jpg')"
+{{end}}
+>
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -30,8 +37,29 @@
 <div class="container pagination-center main-container">
   {{ partial "categoryBox.html" .}}
   <div class="row post-row comp-post-row">
-    {{ range .Paginator.Pages }}
-    {{ .Render "archive" }}
+      {{ range where .Pages "Section" "resource" }}
+      <div class="post-preview col-lg-4 col-md-6">
+          <div class="post-preview__container">
+            {{ if isset .Params "image" }}
+            <a href="{{ .Permalink }}" class="preview-img__a">
+              <img src="{{ .Params.image }}" alt="" class="post-thumb__img"/>
+            </a>
+            {{end}}
+            <div class="post-preview__wrap">
+              {{ partial "tags.html" .}}
+              <a href="{{ .Permalink }}">
+                <h2 class="post-title">{{ .Title }}</h2>
+                <h3 class="post-subtitle">{{ .Description }}</h3>
+              </a>
+              <div class="post-meta">
+                {{ partial "meta.html" .}}
+              </div>
+            </div>
+          </div>
+        </div>
+      {{end}}
+    {{ range .Paginator.Pages.ByWeight }}
+      {{ .Render "archive" }}
     {{ end }}
   </div>
   {{ template "_internal/pagination.html" . }}
@@ -43,7 +71,7 @@
   새 페이지 레이아웃 
 -->
 
-<!-- Page Header -->
+<!-- Page Header 
 <header class="intro-header sub-header" style="background-image: url('{{ .Site.BaseURL }}/img/resource.jpg')">
   <div class="container">
     <div class="row">
@@ -51,7 +79,6 @@
         <div class="site-heading list-heading">
           <h1>{{ .Title }}</h1>
           <hr class="small">
-          <!-- <span class="subheading">{{ .Description }}</span> -->
         </div>
       </div>
     </div>
@@ -61,7 +88,6 @@
 <div class="container-header sub-container-header container">
   <div class="row">
     <div class="col-sm-12">
-        <!-- <p class="recent-post">All Posts</p> -->
         <div class="category-filter__wrap">
           <div class="category-filter__txt" style="background-image:url('{{ .Site.BaseURL }}/img/ico-down.png');">Category
               <ul class="category-list">
@@ -80,7 +106,7 @@
 <div class="container sub-container">
     {{ partial "categoryBox.html" .}}
   <div class="row post-row comp-post-row">
-    {{ range .Pages }}
+    {{ range where .Pages "Section" "resource" }}
     <div class="post-preview col-lg-4 col-md-6">
         <div class="post-preview__container">
           {{ if isset .Params "image" }}
@@ -102,6 +128,6 @@
       </div>
       {{ end }}
   </div>
-</div>
+</div> -->
 
 {{ partial "footer.html" . }}

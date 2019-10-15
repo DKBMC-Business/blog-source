@@ -23,6 +23,7 @@ image = "/img/content/CRM_thumb.jpg"
 
 comments = true
 date = 2019-10-01T10:34:32+09:00
+weight = 1000
 +++
 
 <!-- 게시글 내용 -->
