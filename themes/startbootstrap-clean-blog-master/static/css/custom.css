@@ -1112,3 +1112,27 @@ a:hover, a:focus {
 .navbar-toggle {
   margin-top: 13px;
 }
+
+.next-prev__wrap {
+  width: 100%;
+  margin-top: 64px;
+}
+.next-prev__wrap::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+.next-prev__wrap > a {
+  display: inline-block;
+  color: #176db5;
+  border: 3px solid #176db5;
+  padding: 8px 24px;
+  border-radius: 4px;
+  font-size: 1.5rem;
+}
+.next-prev__wrap .next__btn {
+  float: right;
+}
+.next-prev__wrap .prev__btn {
+}

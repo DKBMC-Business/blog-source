@@ -78,7 +78,7 @@
       },200);
     }
     /* Loader */
-    $("#loading").delay(500).fadeOut(500);
+    
   });
 
   /* Top Button 활성 & 비활성 */
@@ -159,6 +159,8 @@
   if($(".site-heading.list-heading h1").text().replace(/\s/g,'') == "Posts") {
     $(".site-heading.list-heading h1").text("Product & Service");
   }
+
+  $("#loading").delay(500).fadeOut(500);
 </script>
 
 {{ template "_internal/google_analytics.html" . }}

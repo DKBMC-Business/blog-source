@@ -36,10 +36,19 @@
                 <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 p-horizontal">
                   {{ .Content }}
                   {{ partial "comments.html" .}}
+
+                  <div class="next-prev__wrap">
+                    {{ with .NextInSection }}
+                      <a class="next__btn" href="{{.Permalink}}" title="{{.Name}}">Next > </a>
+                    {{end}}
+                    {{ with .PrevInSection }}
+                      <a class="prev__btn" href="{{.Permalink}}" title="{{.Name}}"> < Prev</a>
+                    {{end}}
+                  </div>
                 </div>
             </div>
-            
         </div>
+
 
         
     </article>

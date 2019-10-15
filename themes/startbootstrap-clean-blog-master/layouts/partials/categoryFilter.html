@@ -2,10 +2,24 @@
         <div class="category-filter__txt" style="background-image:url('{{ .Site.BaseURL }}/img/ico-down.png');">Category
             <ul class="category-list">
               <div></div>
+              <li style="list-style:none;display:block;padding:7px 50px;font-size:1.8rem;">Category</li>
                 {{ range $.Site.Taxonomies.categories.ByCount }}
                     {{ if .Name }}
                         <li style="list-style:none;"><a href="/categories/{{ .Name | urlize}}/"> - {{ .Name | title }} <small>({{ .Count }})</small></a></li>
                     {{ end }}
+                {{end}}
+                <hr style="margin:4px auto;width:80%;opacity:0.65;"/>
+                {{ range $.Site.Taxonomies.tags.ByCount }}
+                    <li class="tags__list" style="list-style:none;"><a href="/tags/{{ .Name | urlize}}/"> - {{ .Name | title }} <small>({{ .Count }})</small></a></li>
+                {{end}}
+                {{ if or (eq .Section "post") (eq .Section "categories") (eq .Section "series") }}
+                <hr style="margin:4px auto;width:80%;"/>
+                        <li style="margin-top:8px;list-style:none;display:block;padding:7px 50px;font-size:1.8rem;">Detail Category</li>
+                        {{ range $.Site.Taxonomies.series.ByCount }}
+                        {{ if .Name }}
+                            <li style="list-style:none;"><a href="/series/{{ .Name | urlize}}/"> - {{ .Name | title }} <small>({{ .Count }})</small></a></li>
+                        {{ end }}
+                        {{end}}
                 {{end}}
             </ul>
         </div>
