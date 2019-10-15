@@ -68,7 +68,6 @@
   </div>
 </header>
 
-
 <div class="container-header sub-container-header container">
   <div class="row">
     <div class="col-sm-12">
@@ -89,6 +88,16 @@
   </div>
 </div>
 <div class="container sub-container">
+    <!--<div class="main-category__wrap">
+        Category
+        <ul class="main-category">
+            {{ range $.Site.Taxonomies.tags.ByCount }}
+              {{ if .Name }}
+                  <li style="list-style:none;"><a href="/tags/{{ .Name | urlize}}/"> - {{ .Name | title }} <small>({{ .Count }})</small></a></li>
+              {{ end }}
+            {{end}}
+        </ul>
+      </div>-->
   <div class="row post-row">
     {{ range .Pages }}
     <div class="post-preview col-lg-4 col-md-6">

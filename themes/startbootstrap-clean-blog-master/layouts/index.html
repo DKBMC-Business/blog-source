@@ -43,17 +43,50 @@
               {{ end }}
             {{end}}
         </ul>
+
+        <ul class="main-category">
+            {{ range $.Site.Taxonomies.tags.ByCount }}
+              {{ if .Name }}
+                  <li style="list-style:none;"><a href="/tags/{{ .Name | urlize}}/"> - {{ .Name | title }} <small>({{ .Count }})</small></a></li>
+              {{ end }}
+            {{end}}
+        </ul>
       </div>
-      <div class="row post-row main-post-row" style="position:relative;">
-          {{ $posts := or .Site.Params.PostSummariesFrontPage 12 }}
+      <div class="row post-row comp-post-row" style="position:relative;">
+          <!-- {{ $posts := or .Site.Params.PostSummariesFrontPage 12 }}
           {{ range first $posts (where .Data.Pages "Type" "post") }}
               {{ .Render "summary"}}
+          {{ end }} -->
+          {{ range first 9 .Data.Pages }}
+          <div class="post-preview col-lg-4 col-md-6">
+              <div class="post-preview__container">
+                {{ if isset .Params "image" }}
+                <a href="{{ .Permalink }}" class="preview-img__a">
+                  <!-- <div class="preview-dimmer"></div> -->
+                  <img src="{{ .Params.image }}" alt="" class="post-thumb__img" />
+                </a>
+                {{end}}
+                <div class="post-preview__wrap">
+                  {{ partial "categories.html" .}}
+                  {{ partial "tags.html" }}
+                  {{ partial "series.html" }}
+                  <a href="{{ .Permalink }}">
+                    <h2 class="post-title">{{ .Title }}</h2>
+                    <h3 class="post-subtitle">{{ .Description }}</h3>
+                  </a>
+                  <div class="post-meta">
+                    {{ partial "meta.html" .}}
+                  </div>
+                </div>
+              </div>
+          </div>
           {{ end }}
       </div>
        <!-- Pager -->
        <ul class="pager" style="clear:both;">
           <li class="next">
-            <a href="{{ .Site.BaseURL }}/post/" style="float:none;border-radius:3px;">Older Posts &rarr;</a>
+            <a href="{{ .Site.BaseURL }}/post/" style="float:none;border-radius:3px;">Product & Service &rarr;</a>
+            <a href="{{ .Site.BaseURL }}/resource/" style="float:none;border-radius:3px;">Resource &rarr;</a>
           </li>
         </ul>
     </div>

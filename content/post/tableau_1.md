@@ -90,3 +90,5 @@ Tableau를 사용하면 데이터와 상호 작용하고 비즈니스 의사 결
 
 ![Tableau 이미지 5](/img/content/t_1-5.png)
 
+<a href="http://www.dkbmc.com/contact.html" class="content-btn__a" target="_blank">
+문의하기</a>

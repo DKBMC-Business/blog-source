@@ -14,6 +14,14 @@ paginate = 6
   # This will load all the CSS defined in the list
   # customCSS = ["<absolute path to CSS>", "/static/css/test.css", "<or just load it off the internet>"]
 
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  series = "series"
+
+[permalinks]
+  series = "/series/:slug"
+
 [[params.social]]
     title = "github"
     url = "https://github.com/DKBMC-Business"
@@ -22,7 +30,7 @@ paginate = 6
     url = "https://www.facebook.com/DKBMCLOUD/"
 
 [[menu.main]]
-  name = "home"
+  name = "Recent"
   url = "/"
   weight = -200
 [[menu.main]]

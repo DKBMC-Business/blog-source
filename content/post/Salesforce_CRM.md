@@ -10,7 +10,7 @@ authors = [
 ]
 
 #제목
-title = "Salesforce CRM 클라우드 솔루션"
+title = "Salesforce CRM 클라우드 솔루션 Overview"
 
 #설명
 description = "Salesforce가 제공하는 전체 솔루션과 관련 내용을 설명합니다."
@@ -108,7 +108,10 @@ Salesforce Lightning Platform을 통해 고객은 고객 참여를 위한 지속
     <a href="http://biz.dkbmc.com/categories/marketing-cloud/">
         <img src="/img/content/CRM_icon3.png" alt="MARKETING"/>
     </a>
-    <a href="javascript:void(0)" class="preparing">
+    <a href="http://biz.dkbmc.com/categories/tableau/">
+        <img src="/img/content/CRM_icon13.png" alt="Tableau"/>
+    </a>
+    <!-- <a href="javascript:void(0)" class="preparing">
         <img src="/img/content/CRM_icon4.png" alt="COMMERCE"/>
     </a>
     <a href="javascript:void(0)" class="preparing">
@@ -131,9 +134,11 @@ Salesforce Lightning Platform을 통해 고객은 고객 참여를 위한 지속
     </a>
     <a href="javascript:void(0)" class="preparing">
         <img src="/img/content/CRM_icon12.png" alt="ENABLEMENT"/>
-    </a>
+    </a>-->
 </nav>
 
+<a href="http://www.dkbmc.com/contact.html" class="content-btn__a" target="_blank">
+문의하기</a>
 
 
 

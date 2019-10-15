@@ -2,7 +2,10 @@
 #카테고리
 categories = [
     "Salesforce",
-    "Lightning Platform",
+]
+
+series = [
+    "Lightning Platform"
 ]
 
 #작성자
@@ -75,5 +78,7 @@ AppExchange Site : [https://appexchange.salesforce.com/](https://appexchange.sal
 <u>-&nbsp;Lightning Platform에 대한 소개는 여기까지입니다. 다음 포스팅에서는 Lightning Platform에 대한 조금 더 자세한 내용을 다뤄보겠습니다.</u>
 
 
-License 문의 : <a href="mailto:sales@dkbmc.com">sales@dkbmc.com</a>
+<!-- License 문의 : <a href="mailto:sales@dkbmc.com">sales@dkbmc.com</a> -->
+<a href="http://www.dkbmc.com/contact.html" class="content-btn__a" target="_blank">
+문의하기</a>
 

@@ -2,6 +2,9 @@
 #카테고리
 categories = [
     "Salesforce",
+]
+
+series = [
     "Service Cloud",
 ]
 

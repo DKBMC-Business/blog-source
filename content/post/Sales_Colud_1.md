@@ -2,7 +2,10 @@
 #카테고리
 categories = [
     "Salesforce",
-    "Sales Cloud",
+]
+
+series = [
+    "Sales Cloud"
 ]
 
 #작성자

@@ -86,14 +86,17 @@ ServiceWorks를 활용해 고객 서비스 품질 개선 및 서비스 만족도
 
 ### 비용 구성
 --------------------
-| 항목 | <center>월 청구 금액</center> |  |  |
-|---|:---:|---|---|
-| Salesforce Service Cloud | 150 $/사용자 |  | 구매 수량에 따라 금액 변경 |
-| 070 인터넷 전화 회선 | 2,000원/회선당 |  |  |
-| 클라우드 CTI | 20,000원/사용자 |  |  |
-| 통화 녹취(옵션) | 20,000원/사용자 |  |  |
-| IVR(옵션) | 20,000원/회선당 |  | 설정 비용 추가 청구. |
-| IVR 설정 및 음성 녹음 비용  | 협의 후 결정 |  | 고객 요건에 비례 |
-| Kakao Talk Connector | 10,000원/사용자 |  | 카카오톡 메시지 비용은 별도 청구 |
-| Facebook Messenger Connector | 10,000원/사용자 |  |  |
-| Salesforce Customization & 교육 | 1,000,000원/일 |  | 고객 요건 |
+| 항목 | <center>월 청구 금액</center> |  |
+|---|:---:|---|
+| Salesforce Service Cloud | 150 $/사용자 | 구매 수량에 따라 금액 변경 |
+| 070 인터넷 전화 회선 | 2,000원/회선당 |  |
+| 클라우드 CTI | 20,000원/사용자 |  |
+| 통화 녹취(옵션) | 20,000원/사용자 |  |
+| IVR(옵션) | 20,000원/회선당 | 설정 비용 추가 청구. |
+| IVR 설정 및 음성 녹음 비용  | 협의 후 결정 | 고객 요건에 비례 |
+| Kakao Talk Connector | 10,000원/사용자 | 카카오톡 메시지 비용은 별도 청구 |
+| Facebook Messenger Connector | 10,000원/사용자 |  |
+| Salesforce Customization & 교육 | 1,000,000원/일 | 고객 요건 |
+
+<a href="http://www.dkbmc.com/contact.html" class="content-btn__a" target="_blank">
+문의하기</a>

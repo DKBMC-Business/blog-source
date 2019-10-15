@@ -2,7 +2,10 @@
 #카테고리
 categories = [
     "Salesforce",
-    "Marketing Cloud"
+]
+
+series = [
+    "Marketing Cloud",
 ]
 
 #작성자
@@ -90,3 +93,6 @@ Mobile Studio를 통해 조직은 SMS, MMS, 푸시 메시징 및 그룹 메시�
 Advertising Studio 를 통해 디지털 광고를 강화하고 광고 캠페인을 관리 할 수 있습니다. 여러 소스의 고객 데이터를 사용하여 Facebook, Google, Instagram, Twitter 등과 같은 다양한 플랫폼에서 고객에게 도달하고 유사한 고객군을 확보 할 수 있습니다. Advertising Studio 를 사용하여 광고 캠페인을 대규모로 관리 할 수 있습니다.
 
 ![마케팅클라우드 이미지 7](/img/content/marketing_1-7.gif)
+
+<a href="http://www.dkbmc.com/contact.html" class="content-btn__a" target="_blank">
+문의하기</a>

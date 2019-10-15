@@ -313,8 +313,8 @@ br {
   padding-left: 16px;
   font-weight: bold;
   text-indent: 8px;
-  position: sticky;
-  top: 81px;
+  /*position: sticky;
+  top: 81px;*/
 }
 .main-category {
   padding: 0;
@@ -341,12 +341,12 @@ br {
   position: relative;
   z-index: 5;
 }
-.post-row.main-post-row {
+.post-row.comp-post-row {
   width: 80%;
 }
 
 @media all and (max-width: 1399px) {
-  .post-row.main-post-row {
+  .post-row.comp-post-row {
     width: auto;
   }
 }
