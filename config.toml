@@ -21,6 +21,7 @@ paginate = 6
 
 [permalinks]
   series = "/series/:slug"
+  tags = "/tags/:slug"
 
 [[params.social]]
     title = "github"

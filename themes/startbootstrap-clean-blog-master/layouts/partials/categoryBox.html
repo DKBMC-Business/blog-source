@@ -1,0 +1,18 @@
+<div class="main-category__wrap">
+        Category
+        <ul class="main-category">
+            {{ range $.Site.Taxonomies.categories.ByCount }}
+              {{ if .Name }}
+                  <li style="list-style:none;"><a href="/categories/{{ .Name | urlize}}/"> - {{ .Name | title }} <small>({{ .Count }})</small></a></li>
+              {{ end }}
+            {{end}}
+        </ul>
+
+        <ul class="main-category">
+            {{ range $.Site.Taxonomies.tags.ByCount }}
+              {{ if .Name }}
+                  <li style="list-style:none;"><a href="/tags/{{ .Name | urlize}}/"> - {{ .Name | title }} <small>({{ .Count }})</small></a></li>
+              {{ end }}
+            {{end}}
+        </ul>
+</div>

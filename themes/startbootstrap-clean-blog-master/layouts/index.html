@@ -21,37 +21,11 @@
     <div class="container" style="padding-bottom: 30px;">
       <div class="container-header main-container-header">
           <!-- <p class="recent-post">Recent Posts</p> -->
-          <div class="category-filter__wrap">
-            <div class="category-filter__txt" style="background-image:url('{{ .Site.BaseURL }}/img/ico-down.png');">Category
-                <ul class="category-list">
-                  <div></div>
-                    {{ range $.Site.Taxonomies.categories.ByCount }}
-                        {{ if .Name }}
-                            <li style="list-style:none;"><a href="/categories/{{ .Name | urlize}}/"> - {{ .Name | title }} <small>({{ .Count }})</small></a></li>
-                        {{ end }}
-                    {{end}}
-                </ul>
-            </div>
-          </div>
+          {{ partial "categoryFilter.html" .}}
       </div>
-      <div class="main-category__wrap">
-        Category
-        <ul class="main-category">
-            {{ range $.Site.Taxonomies.categories.ByCount }}
-              {{ if .Name }}
-                  <li style="list-style:none;"><a href="/categories/{{ .Name | urlize}}/"> - {{ .Name | title }} <small>({{ .Count }})</small></a></li>
-              {{ end }}
-            {{end}}
-        </ul>
 
-        <ul class="main-category">
-            {{ range $.Site.Taxonomies.tags.ByCount }}
-              {{ if .Name }}
-                  <li style="list-style:none;"><a href="/tags/{{ .Name | urlize}}/"> - {{ .Name | title }} <small>({{ .Count }})</small></a></li>
-              {{ end }}
-            {{end}}
-        </ul>
-      </div>
+      {{ partial "categoryBox.html" .}}
+
       <div class="row post-row comp-post-row" style="position:relative;">
           <!-- {{ $posts := or .Site.Params.PostSummariesFrontPage 12 }}
           {{ range first $posts (where .Data.Pages "Type" "post") }}
@@ -67,9 +41,15 @@
                 </a>
                 {{end}}
                 <div class="post-preview__wrap">
-                  {{ partial "categories.html" .}}
-                  {{ partial "tags.html" }}
-                  {{ partial "series.html" }}
+                  {{ if isset .Params "categories" }}
+                    {{ partial "categories.html" .}}
+                  {{end}}
+                  {{ if isset .Params "tags" }}
+                    {{ partial "tags.html" .}}
+                  {{end}}
+                  {{ if isset .Params "series" }}
+                    {{ partial "series.html" .}}
+                  {{end}}
                   <a href="{{ .Permalink }}">
                     <h2 class="post-title">{{ .Title }}</h2>
                     <h3 class="post-subtitle">{{ .Description }}</h3>
@@ -85,7 +65,7 @@
        <!-- Pager -->
        <ul class="pager" style="clear:both;">
           <li class="next">
-            <a href="{{ .Site.BaseURL }}/post/" style="float:none;border-radius:3px;">Product & Service &rarr;</a>
+            <a href="{{ .Site.BaseURL }}/post/" style="float:none;border-radius:3px;margin-bottom:8px;">Product & Service &rarr;</a>
             <a href="{{ .Site.BaseURL }}/resource/" style="float:none;border-radius:3px;">Resource &rarr;</a>
           </li>
         </ul>

@@ -7,7 +7,15 @@
       </a>
       {{end}}
       <div class="post-preview__wrap">
-        {{ partial "categories.html" .}}
+        {{ if isset .Params "categories" }}
+          {{ partial "categories.html" .}}
+        {{end}}
+        {{ if isset .Params "tags" }}
+          {{ partial "tags.html" .}}
+        {{end}}
+        {{ if isset .Params "series" }}
+          {{ partial "series.html" .}}
+        {{end}}
         <a href="{{ .Permalink }}">
           <h2 class="post-title">{{ .Title }}</h2>
           <h3 class="post-subtitle">{{ .Description }}</h3>

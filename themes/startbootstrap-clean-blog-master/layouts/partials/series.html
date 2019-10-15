@@ -1,9 +1,13 @@
 <div class="category__wrap">
-    {{ range $index, $c :=  .Params.categories }}
-      {{- if eq $index 0 -}}
-        <a href="/categories/{{ urlize . }}">{{ title . }}</a>
-      {{- else -}}
-        <a href="/categories/{{ urlize . }}">{{ title . }}</a>
-      {{- end -}}
-    {{ end }}
+        {{ range .Params.series }}
+                <a href="/series/{{ urlize . }}">{{ . }}</a>
+        {{ end }}
 </div>
+
+<!-- <div class="category__wrap">
+        {{ range $key, $taxonomy := .Site.Taxonomies.series }}
+            {{ range $taxonomy.Pages }}
+                <a href="/categories/{{ urlize . }}">{{ $key }}</a>
+            {{ end }}
+        {{ end }}
+</div> -->

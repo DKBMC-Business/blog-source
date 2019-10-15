@@ -1,7 +1,7 @@
 +++
 #카테고리
 tags = [
-    "Resource",
+    "Company Document",
 ]
 
 #작성자
