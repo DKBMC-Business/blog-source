@@ -1,7 +1,7 @@
 +++
 #카테고리
 tags = [
-    "Solution & Service",
+    "",
 ]
 
 #작성자
