@@ -1136,3 +1136,133 @@ a:hover, a:focus {
 }
 .next-prev__wrap .prev__btn {
 }
+
+.nav__btn {
+  width: 25px;
+  height: 20px;
+  float: right;
+  position: relative;
+  background-color: transparent;
+  border: 0;
+  margin: 20px 20px 0 40px;
+}
+.nav__btn span {
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #333;
+  transition-duration: 0.3s;
+}
+.nav__btn span:first-child {
+  top: 0;
+}
+.nav__btn span:nth-child(2) {
+  top: 50%;
+  margin-top: -2px;
+}
+.nav__btn span:last-child {
+  bottom: 0;
+}
+.nav__btn:hover span:nth-child(2) {
+  width: 65%;
+}
+
+.nav-menu__wrap {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 100%;
+  background-color: #fff;
+  z-index: 99999;
+  transition-duration: 0.5s;
+}
+.nav-menu__wrap.active {
+  left: 0;
+}
+.nav-menu__close {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  background-color: transparent;
+  border: 0;
+}
+.nav-menu__close span {
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: #333;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+.nav-menu__close span:last-child {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.nav-menu-list__wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+.nav-menu__list {
+  float: left;
+  padding: 0;
+}
+.nav-menu__list.sub-list {
+  margin-left: 36px;
+}
+.nav-menu__list > li {
+  list-style: none;
+}
+.nav-menu__list > li > a {
+  font-size: 4.25rem;
+  font-weight: bold;
+  color: #666;
+  line-height: 1.85;
+}
+
+.nav-menu__list.sub-list > li > a {
+  font-size: 3.5rem;
+}
+
+@media all and (max-width: 767px) {
+  .nav-menu-list__wrap {
+    left: 30px;
+    -webkit-transform: translateX(0) translateY(-50%);
+    transform: translateX(0) translateY(-50%);
+  }
+  .nav-menu__list > li > a {
+    font-size: 2.5rem;
+  }
+  .nav-menu__list.sub-list > li > a {
+    font-size: 2.25rem;
+  }
+  .nav__btn {
+    display: none;
+    margin-left: 0;
+  }
+}
+
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+  max-height: 270px;
+}
+
+.hideNav ~ li, li.hideNav {
+  display: none;
+}
+
+@media all and (max-width: 767px) {
+  .hideNav ~ li, li.hideNav {
+    display: block;
+  }
+}
