@@ -1323,6 +1323,9 @@ a:hover, a:focus {
 .content-line #consulting ~ p:nth-of-type(2n) {
   margin-top: 10px;
 }
+.content-line #consulting + strong + p {
+  margin: 0;
+}
 
 @media all and (max-width: 1399px) {
   .content-line .consulting__list > li {
