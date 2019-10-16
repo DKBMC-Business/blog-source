@@ -26,7 +26,7 @@ draft = false
 image = "/img/content/marketing_thumb.jpg"
 
 comments = true
-date = 2019-10-11T14:04:23+09:00
+date = 2019-08-16T14:04:23+09:00
 +++
 
 <!-- 게시글 내용 -->

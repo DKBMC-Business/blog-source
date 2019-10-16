@@ -26,7 +26,7 @@ draft = false
 image = "/img/content/consulting_1_thumb.jpg"
 
 comments = true
-date = 2019-10-15T17:44:30+09:00
+date = 2019-10-01T17:44:30+09:00
 +++
 
 <!-- 게시글 내용 -->
@@ -68,6 +68,8 @@ date = 2019-10-15T17:44:30+09:00
     </li>
 </ul>
 
+<br/>
+
 <div id="consulting"></div>
 ### DK BMC Consulting Area
 -------------------
@@ -89,6 +91,8 @@ date = 2019-10-15T17:44:30+09:00
 **4.&nbsp;Change Management Service**
 
 -&nbsp;조직변경과 업무변화에 따른 조직과 사용자의 시스템 변경 요구를 체계적으로 관리하고, 시스템에 업그레이드, 적용하여 사용자의 업무 연속성과 생산성을 향상할 수 있는 변화관리/운영 서비스를 제공합니다. 
+
+<br/>
 
 <a href="http://www.dkbmc.com/contact.html" class="content-btn__a" target="_blank">
 문의하기</a>

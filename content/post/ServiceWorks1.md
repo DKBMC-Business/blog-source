@@ -25,7 +25,7 @@ image = "/img/content/serviceWorks_thumb.jpg"
 form = false
 
 comments = true
-date = 2019-10-10T13:34:27+09:00
+date = 2019-09-16T13:34:27+09:00
 +++
 
 <!-- 게시글 내용 -->

@@ -16,7 +16,7 @@ title = "Investment Banking Management"
 description = "Investment Banking Management 관련 영상 컨텐츠입니다."
 
 #공개: false / 비공개: true
-draft = true
+draft = false
 
 #썸네일 이미지 URL
 image = "/img/content/video1_thumb.jpg"
@@ -25,7 +25,7 @@ image = "/img/content/video1_thumb.jpg"
 form = false
 
 comments = true
-date = 2019-10-15T17:08:08+09:00
+date = 2019-10-07T17:08:08+09:00
 +++
 
 <!-- 게시글 내용 -->

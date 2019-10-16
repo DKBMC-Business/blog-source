@@ -22,7 +22,7 @@ draft = false
 image = "/img/content/t_1_thumb.jpg"
 
 comments = true
-date = 2019-10-11T17:30:29+09:00
+date = 2019-09-20T17:30:29+09:00
 +++
 
 <!-- 게시글 내용 -->

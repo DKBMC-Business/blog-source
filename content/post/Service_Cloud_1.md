@@ -26,7 +26,7 @@ draft = false
 image = "/img/content/service_cloud_1_thumb.jpg"
 
 comments = true
-date = 2019-09-06T09:08:35+09:00
+date = 2019-08-09T09:08:35+09:00
 +++
 
 <!-- 게시글 내용 -->

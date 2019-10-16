@@ -26,7 +26,7 @@ draft = false
 image = "/img/content/sales_cloud_thumb1.jpg"
 
 comments = true
-date = 2019-09-10T09:16:01+09:00
+date = 2019-07-30T09:16:01+09:00
 +++
 
 <!-- 게시글 내용 -->

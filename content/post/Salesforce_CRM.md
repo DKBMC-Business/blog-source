@@ -22,7 +22,7 @@ draft = false
 image = "/img/content/CRM_thumb.jpg"
 
 comments = true
-date = 2019-10-01T10:34:32+09:00
+date = 2019-07-23T10:34:32+09:00
 weight = 1000
 +++
 

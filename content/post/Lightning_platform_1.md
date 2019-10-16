@@ -26,7 +26,7 @@ draft = false
 image = "/img/content/lightning_platform_thumb.jpg"
 
 comments = true
-date = 2019-09-06T10:00:02+09:00
+date = 2019-09-02T10:00:02+09:00
 +++
 
 <!-- 게시글 내용 -->
