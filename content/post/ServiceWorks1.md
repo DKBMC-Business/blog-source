@@ -66,7 +66,7 @@ ServiceWorks는 CTI 장비 설치 없이 웹브라우저와 IP폰 만으로 콜�
 
 전화 뿐 아니라 웹, 카카오톡, 페이스북 등 다양한 채널을 통합해 서비스할 수 있는 기능을 제공해 다 채널 서비스가 필요한 고객의 운영 인력 및 서비스 비용을 절감할 수 있습니다. 
 
-![ServiceWorks 이미지 4](/img/content/servicework-4.png)
+![ServiceWorks 이미지 4](/img/content/servicework-4.jpg)
 
 <br/>
 
