@@ -1139,6 +1139,8 @@ a:hover, a:focus {
   border-radius: 4px;
   font-size: 1.5rem;
   transition-duration: 0.3s;
+  min-width: 105px;
+  text-align: center;
 }
 .next-prev__wrap > a:hover {
   background-color: #176db5;
@@ -1249,21 +1251,17 @@ a:hover, a:focus {
   font-size: 3.5rem;
 }
 
-@media all and (max-width: 767px) {
+@media all and (max-width: 991px) {
   .nav-menu-list__wrap {
-    left: 30px;
+    /*left: 30px;
     -webkit-transform: translateX(0) translateY(-50%);
-    transform: translateX(0) translateY(-50%);
+    transform: translateX(0) translateY(-50%);*/
   }
   .nav-menu__list > li > a {
     font-size: 2.5rem;
   }
   .nav-menu__list.sub-list > li > a {
     font-size: 2.25rem;
-  }
-  .nav__btn {
-    display: none;
-    margin-left: 0;
   }
 }
 
@@ -1278,6 +1276,10 @@ a:hover, a:focus {
 @media all and (max-width: 767px) {
   .hideNav ~ li, li.hideNav {
     display: block;
+  }
+  .nav__btn {
+    display: none;
+    margin-left: 0;
   }
 }
 
