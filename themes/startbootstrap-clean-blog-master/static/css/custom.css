@@ -1286,8 +1286,13 @@ a:hover, a:focus {
 .content-line .consulting__list {
   list-style: none;
   width: 100%;
-  overflow: hidden;
 }
+.content-line .consulting__list::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
 .content-line .consulting__list > li {
   width: 33.333%;
   height: 520px;
@@ -1306,11 +1311,36 @@ a:hover, a:focus {
   border: 1px solid #999;
   border-radius: 3px;
   padding: 32px 16px;
+  min-height: 285px;
 }
+.logo-gold {
+  width: 80%;
+}
+@media all and (max-width: 1399px) {
+  .content-line .consulting__list > li:last-of-type > div {
+    min-height: unset;
+  }
+}
+@media all and (max-width: 991px) {
+  .content-line .consulting__list > li > div {
+    min-height: 320px;
+  }
+}
+@media all and (max-width: 767px) {
+  .logo-gold {
+    width: auto;
+    margin: 0 auto;
+  }
+  .content-line .consulting__list > li > div {
+    min-height: unset;
+  }
+}
+
 .content-line .consulting__list > li > .img__wrap {
   border: 0;
   height: 250px;
   position: relative;
+  min-height: unset;
 }
 .content-line .consulting__list > li > div > b {
   display: block;

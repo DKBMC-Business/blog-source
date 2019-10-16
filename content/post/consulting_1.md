@@ -39,7 +39,7 @@ date = 2019-10-01T17:44:30+09:00
 <ul class="consulting__list">
     <li>
         <div class="img__wrap">
-          <img src="/img/content/logo_gold.png" alt="salesforce gold consulting partner, salesforce authorized cloud reseller" style="width: 80%;"/>
+          <img src="/img/content/logo_gold.png" alt="salesforce gold consulting partner, salesforce authorized cloud reseller" class="logo-gold"/>
         </div>
         <div>
             <b>Salesforce<br/>
