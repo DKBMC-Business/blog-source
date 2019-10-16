@@ -53,6 +53,23 @@
   <div class="loader"></div>
 </div>
 
+<button class="subscribe__btn" onclick="subscribeShow()">Subscribe</button>
+
+<article class="subscribe-modal__wrap">
+  <div class="subscribe-modal">
+      <form action="https://tinyletter.com/BonghoonKo" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/BonghoonKo', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+        <p><label for="tlemail">Enter your email address</label></p>
+        <p><input type="text" style="width:320px;text-align:center;" name="email" id="tlemail" /></p>
+        <input type="hidden" value="1" name="embed"/>
+        <input type="submit" value="Subscribe" />
+        <p>
+          <a href="https://tinyletter.com" target="_blank">powered by TinyLetter</a>
+        </p>
+      </form>
+      <button class="subscribe-modal__close" onclick="subscribeClose();"></button>
+  </div>
+</article>
+
 <!-- jQuery -->
 <script src="{{ .Site.BaseURL }}/js/jquery.min.js"></script>
 
@@ -167,6 +184,18 @@
   function navMenuShow() {
     $(".nav-menu__wrap").addClass("active");
   }
+
+  function subscribeShow() {
+    $(".subscribe-modal__wrap").fadeIn(300).css("display","flex");
+  }
+
+  function subscribeClose() {
+    $(".subscribe-modal__wrap").fadeOut(300);
+  }
+
+  $(".site-heading h1").on("dblclick",function(){
+    $(".subscribe__btn").css("bottom","0");
+  });
 
   $("#loading").delay(500).fadeOut(500);
 </script>
