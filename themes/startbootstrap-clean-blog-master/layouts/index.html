@@ -20,7 +20,7 @@
     <!-- Main Content -->
     <div class="container" style="padding-bottom: 30px;">
       <div class="container-header main-container-header">
-          <!-- <p class="recent-post">Recent Posts</p> -->
+          <p class="recent-post">Recent Posts</p>
           {{ partial "categoryFilter.html" .}}
       </div>
 
@@ -32,7 +32,7 @@
               {{ .Render "summary"}}
           {{ end }} -->
           {{ range first 9 .Data.Pages.ByPublishDate.Reverse }}
-          <div class="post-preview col-lg-4 col-md-6">
+          <div class="post-preview col-lg-4 col-sm-6">
               <div class="post-preview__container">
                 {{ if isset .Params "image" }}
                 <a href="{{ .Permalink }}" class="preview-img__a">

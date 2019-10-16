@@ -359,6 +359,9 @@ br {
 }
 
 @media all and (max-width: 991px) {
+
+}
+@media all and (max-width: 767px) {
   .post-row {
     height: auto !important;
   }
@@ -1322,6 +1325,9 @@ a:hover, a:focus {
 @media all and (max-width: 1399px) {
   .content-line .consulting__list > li {
     width: 50%;
+  }
+  .recent-post {
+    display: none;
   }
 }
 

@@ -38,7 +38,7 @@ style="background-image: url('{{ .Site.BaseURL }}/img/post-bg-1.jpg')"
   {{ partial "categoryBox.html" .}}
   <div class="row post-row comp-post-row">
       {{ range where .Paginator.Pages "Section" "resource" }}
-      <div class="post-preview col-lg-4 col-md-6">
+      <div class="post-preview col-lg-4 col-sm-6">
           <div class="post-preview__container">
             {{ if isset .Params "image" }}
             <a href="{{ .Permalink }}" class="preview-img__a">
