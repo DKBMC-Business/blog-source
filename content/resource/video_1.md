@@ -16,7 +16,7 @@ title = "Investment Banking Management"
 description = "Investment Banking Management 관련 영상 컨텐츠입니다."
 
 #공개: false / 비공개: true
-draft = false
+draft = true
 
 #썸네일 이미지 URL
 image = "/img/content/video1_thumb.jpg"
