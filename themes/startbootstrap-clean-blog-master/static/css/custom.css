@@ -384,6 +384,10 @@ br {
   .post-preview:nth-of-type(2n+1) {
     left: 0;
   }
+  .main-post-row .post-preview:last-of-type {
+    display: none;
+    height: 0;
+  }
 }
 
 @media all and (min-width: 1200px) {
