@@ -23,6 +23,10 @@ image = "http://www.dkbmc.com/gnuboard5/data/file/dkboard/833385916_Dwv1hPt2_db0
 
 # true : form 보이게 / false : form 안보이게
 form = true
+downloadURL = "http://www.dkbmc.com/gnuboard5/bbs/download.php?bo_table=dkboard&wr_id=71&no=1"
+fileName = "PwC_제조업에서의_Digital_Transformation_최종본.pdf"
+downloadURL_1 = "http://dkbmc.com/resource_download.php?wrid=71"
+fileName_1 = "Contents_71"
 
 comments = true
 date = 2019-06-04T10:38:28+09:00

@@ -41,30 +41,38 @@
                     </div>
                     <div class="resource-detail_item">
                         <!-- resource form -->
-                        <form class="resource-form" action="" method="post">
+                        <form class="resource-form" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+                            <legend class="hide">input</legend>
+                            <input type=hidden name="oid" value="00D28000000IddC">
+                            <input type=hidden name="retURL" value="http://dkbmc.com/download_thanks.html">
                             <div class="form-container">
                                 <div class="input-item">
-                                    
                                     <input type="text" id="company" name="company" placeholder="Company" />
                                     <label for="company">Company</label>
                                 </div>
                                 <div class="input-item">
-                                    <input type="text" id="title" name="title" placeholder="Title" />
+                                    <input type="text" id="00N2800000ACNRo" name="00N2800000ACNRo" placeholder="Title" />
                                     <label for="title">Title</label>
                                 </div>
                                 <div class="input-item">
-                                    <input type="text" id="name" name="name" placeholder="Name" />
+                                    <input type="text" id="last_name" name="last_name" placeholder="Name" />
                                     <label for="name">Name</label>
                                 </div>
                                 <div class="input-item">
-                                    <input type="text" id="phone" name="phone" placeholder="Phone" />
+                                    <input type="text" id="phone" name="phone" placeholder="Phone" onkeyup="this.value=this.value.replace(/[^0-9]/g,'')"/>
                                     <label for="phone">Phone</label>
                                 </div>
                                 <div class="input-item">
-                                    
                                     <input type="email" id="email" name="email" placeholder="Email" />
                                     <label for="company">Email</label> 
                                 </div>
+                                <input id="00N0I00000K18sw" maxlength="255" name="00N0I00000K18sw" type="text" value='{{ .Params.downloadURL }}' class="hide" style="display:none;"/>
+                                <input id="00N0I00000K18sv" maxlength="255" name="00N0I00000K18sv" type="text" value='{{ .Params.fileName }}' class="hide" style="display:none;"/>
+                                <input id="00N0I00000K18ss" maxlength="255" name="00N0I00000K18ss" type="text" value='{{ .Params.downloadURL_1 }}' class="hide" style="display:none;"/>
+                                <input id="00N0I00000K18st" maxlength="50" name="00N0I00000K18st" type="text" value='{{ .Params.fileName_1 }}' class="hide" style="display:none;"/>
+                                <input id="00N0I00000K18sx" maxlength="255" name="00N0I00000K18sx" type="text" value='Resource' class="hide" style="display:none;"/>
+                                <Br/>
+                                <input type="checkbox" id="robot" name="robot" value="robot" style="display:none;" class="hide">
                                 <div class="input-item">
                                     <button type="submit">Download</button>
                                 </div>
@@ -72,8 +80,6 @@
                         </form>
 
                     </div> 
-                    
-
                 </div>
                 
                 {{end}}

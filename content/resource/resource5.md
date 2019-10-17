@@ -23,6 +23,10 @@ image = "http://www.dkbmc.com/gnuboard5/data/file/dkboard/598380687_atx8JvZH_654
 
 # true : form 보이게 / false : form 안보이게
 form = true
+downloadURL = "http://www.dkbmc.com/gnuboard5/bbs/download.php?bo_table=dkboard&wr_id=74&no=1"
+fileName = "세일즈포스_인공지능플랫폼_Einstein_Discovery_소개_-_배포용.pdf"
+downloadURL_1 = "http://dkbmc.com/resource_download.php?wrid=74"
+fileName_1 = "Contents_74"
 
 comments = true
 date = 2019-06-04T10:38:35+09:00
