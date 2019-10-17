@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="google-site-verification" content="lhulumjBhO4KJFVB0xxfgsKfsLHOeQi5KLuqHGvJyfs" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="“누구나 Lightning Platform에서 단시간 내 쉽게 앱을 구축할 수 있습니다.”">
+    <meta name="author" content="[이광준]">
+    <meta name="keywords" content="">
+
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:title" content="DKBMC 비즈니스 블로그"/>
+    <meta property="og:description" content="DKBMC 비즈니스 블로그입니다."/>
+    <meta property="og:url" content="http://biz.dkbmc.com"/>
+    <meta property="og:image" content="https://DKBMC-Business.github.io//img/openGraph.jpg"/>
+    
+
+    <title>DKBMC 비즈니스 블로그</title>
+
+    <link rel="icon" type="image/png" sizes="32x32" href="https://DKBMC-Business.github.io//img/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="https://DKBMC-Business.github.io//img/apple-icon-57x57.png">
+
+    
+
+    
+    <link href="https://DKBMC-Business.github.io//css/bootstrap.min.css" rel="stylesheet">
+
+    
+    <link href="https://DKBMC-Business.github.io//css/clean-blog.min.css" rel="stylesheet">
+    <link href="https://DKBMC-Business.github.io//css/font.css" rel="stylesheet"/>
+    <link href="https://DKBMC-Business.github.io//css/custom.css" rel="stylesheet"/>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    
+    
+    
+</head>
+
+<body>
+    <div class="nav-menu__wrap">
+    <button class="nav-menu__close" onclick="navMenuClose();">
+        <span></span>
+        <span></span>
+    </button>
+    <div class="nav-menu-list__wrap">
+        <ul class="nav-menu__list">
+            <li><a href="http://dkbmc.com/about.html">About</a></li>
+            <li><a href="http://biz.dkbmc.com/post/">Product &amp; Service</a></li>
+            <li><a href="http://dkbmc.com/marketing.html">Marketing</a></li>
+            <li><a href="http://dkbmc.com/client.html">Clients</a></li>
+            <li><a href="http://biz.dkbmc.com/resource/">Resource</a></li>
+        </ul>
+        <ul class="nav-menu__list sub-list">
+            <li><a href="http://dkbmc.com/contact.html">Contact</a></li>
+            <li><a href="http://dkbmc.com/list.php">News</a></li>
+            
+            <li><a href="https://support.dkbmc.com/">Support</a></li>
+        </ul>
+    </div>
+</div>
+    
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+            <button class="nav__btn" onclick="navMenuShow()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+            </button>
+        <div class="container-fluid">
+            
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+                <a class="navbar-brand" href="http://dkbmc.com/"><img class="logo-img" src="https://DKBMC-Business.github.io//img/DK-business-color.png" alt="DKBMC"/></a>
+            </div>
+
+                       
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    
+                    <li>
+                        <a href="/">Recent</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/post/">Product &amp; Service</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/resource/">Resource</a>
+                    </li>
+                    
+                    <li class="hideNav" style="border-top:2px solid #bfbfbf;">
+                        <a href="http://dkbmc.com/about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="http://dkbmc.com/marketing.html">Marketing</a>
+                    </li>
+                    <li>
+                        <a href="http://dkbmc.com/client.html">Clients</a>
+                    </li>
+                    <li>
+                        <a href="http://dkbmc.com/contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="http://dkbmc.com/list.php">News</a>
+                    </li>
+                    <li>
+                        <a href="https://support.dkbmc.com/">Support</a>
+                    </li>
+                </ul>
+            </div>
+           
+
+        </div>
+        
+    </nav>
+    
+
+
+    
+    
+    <header class="post-header intro-header " style="background-image: url('https://DKBMC-Business.github.io//img/post-detail-back.jpg');">
+      
+      <div class="container">
+        <div class="row">
+           <div class="col-lg-12 col-md-12">
+             <div class="post-heading detail-heading">
+               <h1>Salesforce Lightning Platform – 1.Lightning Platform이란?</h1>
+               <h2 class="subheading">“누구나 Lightning Platform에서 단시간 내 쉽게 앱을 구축할 수 있습니다.”</h2>
+               <hr class="small" style="border-color: #176db5;"/>
+               <span class="post-preview_date"><b>Mon, Sep 2, 2019</b></span>
+               <span style="color:#fff;font-size: 1.65rem;">written by</span>
+                <a href="#" class="author">
+                <span>이광준</span>
+                </a>
+               
+             </div>
+           </div>
+        </div>
+      </div>
+    </header>
+    
+    <article class="content-line">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 p-horizontal">
+                  
+
+<!-- 게시글 내용 -->
+
+<h1 id="lightning-platform이란">Lightning Platform이란?</h1>
+
+<hr class="title__hr"/>
+
+<p>“누구나 Lightning Platform에서 단시간 내 쉽게 앱을 구축할 수 있습니다.”</p>
+
+<p><img src="/img/content/lightning_platform_img1.png" alt="라이트닝 플랫폼 이미지" /></p>
+
+<p>Lightning Platform은 Salesforce의 Sales, Service, Marketing Cloud 등 대부분의 Service들에 기반이 되는 Platform으로 Compute, Network, Storage등 Infra 측면부터 Web Service, Database 및 Data 처리, UI/UX 구성, Identity, Security 등 운영에 필요한 Platform 측면까지 제공을 해줍니다. Salesforce Service들은 이런 강력한 Platform 기능을 기반으로 제공됩니다. 하지만 Lightning Platform은 Platform 자체적으로도 제공되며, 다양하게 활용할 수 있습니다.</p>
+
+<iframe width="100%" height="450" src="https://www.youtube.com/embed/sj1wOnelTNk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p><br/></p>
+
+<h3 id="no-code-builder">No Code Builder</h3>
+
+<hr />
+
+<p>Lightning Platform은 기본적으로 개발을 위한 Code 없이 제공되는 Builder를 이용해서 APP을 만들 수 있습니다. Object(Salesforce에서는 일반적인 Database의 Table의 개념을 Object로 표현합니다.)와 Field를 구성할 수 있는 Schema Builder or Object Manager, UI/UX를 구성하는 Lightning App Builder, 다양한 Process 등을 구성하는 Lightning Flow, Approval Process, Process Builder 등을 사용합니다. 모두 Code 없이 마우스 클릭만으로 구성이 가능하죠. 물론 좀 더 깊은 수준의 UI/UX 구성, 다른 시스템과의 연계 등을 위해서는 Code 구현이 필요하겠지만 단일 동작하는 기본 APP이라면 정말 간단하게 만들 수 있습니다. 또한 이렇게 만들어진 APP은 모바일에서도 최적화되어 동시에 Service를 제공합니다. Lightning Platform을 통해 Salesforce의 최신 Platform 기술을 CRM 뿐 아니라 다양한 업무에 적용하여 사용하실 수 있습니다.</p>
+
+<iframe width="100%" height="450" src="https://www.youtube.com/embed/IRMJntNhOBc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p><br/></p>
+
+<p>Lightning Platform을 이용하실 때 유용한 정보가 몇가지 있는데, 하나는 사용자 교육을 위한 Trailhead와 APP 공유를 위한 AppExchange입니다.</p>
+
+<p><br/></p>
+
+<h3 id="사용자-교육-trailhead">사용자 교육 – Trailhead</h3>
+
+<hr />
+
+<p>Salesforce는 사용자들의 성공적인 Service 이용을 위하여 사용자 교육에 대한 프로그램을 다양하고, 깊이 있게 제공합니다. 물론 모두 무료로 제공하고 있습니다. 자세한 내용은 아래 영상을 참고하세요.</p>
+
+<p>Trailhead Site : <a href="https://trailhead.salesforce.com/en/home">https://trailhead.salesforce.com/en/home</a></p>
+
+<iframe width="100%" height="450" src="https://www.youtube.com/embed/kFsNlZ6DaVQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p><br/></p>
+
+<h3 id="app-공유-salesforce-appexchange">APP 공유 – Salesforce AppExchange</h3>
+
+<hr />
+
+<p>Lightning Platform의 또다른 강점은 전세계 사용자와 공유한다는 점입니다. 누구나 만든 APP을 AppExchange에 올리고 공유할 수 있습니다. 반대로 내가 필요한 것들을 찾아서 받을 수도 있겠죠. 물론 무료로 공유도 하지만 유료로 판매도 합니다. Salesforce만의 Store라고 생각하시면 됩니다.</p>
+
+<p>AppExchange Site : <a href="https://appexchange.salesforce.com/">https://appexchange.salesforce.com/</a></p>
+
+<iframe width="100%" height="450" src="https://www.youtube.com/embed/n6lsAsgCnH8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p><u>-&nbsp;Lightning Platform에 대한 소개는 여기까지입니다. 다음 포스팅에서는 Lightning Platform에 대한 조금 더 자세한 내용을 다뤄보겠습니다.</u></p>
+
+<!-- License 문의 : <a href="mailto:sales@dkbmc.com">sales@dkbmc.com</a> -->
+
+<p><a href="http://www.dkbmc.com/contact.html" class="content-btn__a" target="_blank">
+문의하기</a></p>
+
+                  
+   
+
+
+
+                  <div class="next-prev__wrap">
+                    
+                      <a class="next__btn" href="https://DKBMC-Business.github.io/post/serviceworks1/" title="클라우드 컨택 센터 솔루션 ServiceWorks!">Next > </a>
+                    
+                    
+                      <a class="prev__btn" href="https://DKBMC-Business.github.io/post/marketing_cloud_1/" title="What Is Salesforce Marketing Cloud?"> &lt; Prev</a>
+                    
+                  </div>
+                </div>
+            </div>
+        </div>
+
+    </article>
+    <hr/>
+    <script src="https://utteranc.es/client.js"
+    repo="DKBMC-Business/blog-comment"
+    issue-term="pathname"
+    theme="github-light"
+    crossorigin="anonymous"
+    async>
+</script>
+<hr style="margin-bottom:0;border-color: #eee;">
+<button class="btn-top" onclick="moveTop()">
+  <img src="https://DKBMC-Business.github.io//img/btn-top.png" alt="TOP"/>
+</button>
+
+<footer class="DK-biz__footer">
+    <div class="container-fluid DK-link__wrap">
+        <div class="container">
+          <nav class="DK-link__nav row">
+            <a href="http://www.dkbmc.com/" target="_blank" class="col-sm-4 col-xs-12">DKBMC 홈페이지 <i class="DK-link__arrow" style="background-image:url('https://DKBMC-Business.github.io//img/DK_Support_Basic_Arrow.png')"></i></a>
+            <a href="http://blog.dkbmc.com/" target="_blank" class="col-sm-4 col-xs-12">DKBMC 기술블로그 <i class="DK-link__arrow" style="background-image:url('https://DKBMC-Business.github.io//img/DK_Support_Basic_Arrow.png')"></i></a>
+            <a href="https://support.dkbmc.com" target="_blank" class="col-sm-4 col-xs-12">DKBMC 고객센터 <i class="DK-link__arrow" style="background-image:url('https://DKBMC-Business.github.io//img/DK_Support_Basic_Arrow.png')"></i></a>
+          </nav>
+        </div>
+      </div>
+  <div class="container DK-SNS__wrap">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center">
+          
+          
+          
+          
+          <li>
+            <a href="https://github.com/DKBMC-Business" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          <li>
+            <a href="https://www.facebook.com/DKBMCLOUD/" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+        </ul>
+        <p class="copyright text-muted">©DK BMC. All rights reserved. Powered by GitHub Pages.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<div id="loading">
+  <div class="loader"></div>
+</div>
+
+
+
+
+<script src="https://DKBMC-Business.github.io//js/jquery.min.js"></script>
+
+
+<script src="https://DKBMC-Business.github.io//js/bootstrap.min.js"></script>
+
+
+<script src="https://DKBMC-Business.github.io//js/clean-blog.js"></script>
+
+<script>
+
+  removePreviewImg();
+  $(window).on("load resize", function () {
+    $(".post-preview").addClass("align");
+    var winWidth = window.innerWidth;
+    if(winWidth <= 1199) {
+      setTimeout(function(){
+        postAlign(2);
+      },200);
+    }
+    else {
+      setTimeout(function(){
+        postAlign(3);
+      },200);
+    }
+     
+    
+  });
+
+   
+  $(document).on("ready scroll",function(){
+    var scrollTop = $(document).scrollTop();
+    if(scrollTop >= 300) {
+      $(".btn-top").addClass("active");
+    }
+    else {
+      $(".btn-top").removeClass("active");
+    }
+  });
+
+   
+  function removePreviewImg() {
+    var previewImg = $(".post-preview__container .post-thumb__img");
+    previewImg.each(function () {
+      var thisSrc = $(this).attr("src");
+      if (thisSrc == "") {
+        $(this).closest(".post-preview__container").children(".post-preview__wrap").css("padding-top", "30px");
+        $(this).hide().remove();
+      }
+    });
+  }
+
+
+  function moveTop() {
+    $("html,body").animate({"scrollTop":0},200);
+    $("html,body").scrollTop(0);
+  }
+  
+   
+  function postAlign(num) {
+    var heightArray = [];
+    for (var i = 0; i < num ; i++) {
+      var $box = $(".post-preview:nth-of-type("+ num +"n+" + i + ")");
+      var boxTarget = ".post-preview:nth-of-type("+ num +"n+" + i + ")";
+      if( i === 0 ) {
+        $box = $(".post-preview:nth-of-type("+ num +"n)");
+        boxTarget = ".post-preview:nth-of-type("+ num +"n)";
+      }
+      var boxHeight = $box.eq(0).outerHeight();
+      for (var n = 1; n < $box.length; n++) {
+        var prevHeight = 0;
+        $box.eq(n).prevAll(boxTarget).each(function () {
+          prevHeight += $(this).outerHeight();
+        });
+        $box.eq(n).css("top", prevHeight + "px");
+        boxHeight += $box.eq(n).outerHeight();
+      }
+      $box.eq(0).css("top", 0);
+      heightArray.push(boxHeight);
+    }
+    var maxHeight = Math.max.apply(null, heightArray);
+    $(".post-row").css("height", maxHeight + 20 + "px");
+  }
+
+
+   
+  
+  var locationPath = "\/post\/lightning_platform_1\/".split("/")[1];
+  var $subCon = $(".sub-container, .sub-container-header, .sub-header");
+  var $mainCon = $(".main-container, .m-header, .m-container-header");
+  if(locationPath == "tags" || locationPath == "resource") {
+    
+    
+  }
+  else {
+    
+  }
+
+   
+  $(".content-line .CRM__list > a.preparing").click(function(e){
+    e.preventDefault();
+    alert("준비중입니다.");
+  });
+  
+  if($(".site-heading.list-heading h1").text().replace(/\s/g,'') == "Posts") {
+    $(".site-heading.list-heading h1").text("Product & Service");
+  }
+
+  function navMenuClose() {
+    $(".nav-menu__wrap").removeClass("active");
+  }
+
+  function navMenuShow() {
+    $(".nav-menu__wrap").addClass("active");
+  }
+
+  
+
+
+  $("#loading").delay(500).fadeOut(500);
+</script>
+
+
+<script type="text/javascript">
+  piAId = '757853';
+  piCId = '15963';
+  piHostname = 'pi.pardot.com';
+  
+  (function() {
+    function async_load(){
+      var s = document.createElement('script'); s.type = 'text/javascript';
+      s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+      var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+    }
+    if(window.attachEvent) { window.attachEvent('onload', async_load); }
+    else { window.addEventListener('load', async_load, false); }
+  })();
+</script>
+</body>
+
+</html>

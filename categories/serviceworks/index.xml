@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ServiceWorks on Business</title>
+    <link>https://DKBMC-Business.github.io/categories/serviceworks/</link>
+    <description>Recent content in ServiceWorks on Business</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language>
+    <copyright>©DK BMC. All rights reserved. Powered by GitHub Pages.</copyright>
+    <lastBuildDate>Mon, 16 Sep 2019 13:34:27 +0900</lastBuildDate>
+    
+	<atom:link href="https://DKBMC-Business.github.io/categories/serviceworks/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>클라우드 컨택 센터 솔루션 ServiceWorks!</title>
+      <link>https://DKBMC-Business.github.io/post/serviceworks1/</link>
+      <pubDate>Mon, 16 Sep 2019 13:34:27 +0900</pubDate>
+      
+      <guid>https://DKBMC-Business.github.io/post/serviceworks1/</guid>
+      <description>DK BMC의 ServiceWorks는 중소/중견 기업을 위한 클라우드 컨텍 센터 솔루션 입니다.
+ServiceWorks는 완전 클라우드 콜센터 솔루션으로 CTI 장비 없이 PC와 IP폰 만으로 콜센터 서비스를 제공합니다. IVR, 녹취 등 콜센터 기능 뿐 아니라 웹/KakaoTalk/Facebook 과도 통합되어 다양한 채널을 통해 유입되는 고객 문의 빠르게 응대 할 수 있는 기능을 제공 합니다.
+ServiceWorks를 활용해 고객 서비스 품질 개선 및 서비스 만족도 향상을 통해 비즈니스를 업그레이드 할 수 있습니다.
+
+1.&amp;nbsp;Salesforce Service Cloud의 글로벌 선진 서비스 프로세스로 서비스 혁신 기능</description>
+    </item>
+    
+  </channel>
+</rss>

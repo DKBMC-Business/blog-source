@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Company Document on Business</title>
+    <link>https://DKBMC-Business.github.io/tags/company-document/</link>
+    <description>Recent content in Company Document on Business</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language>
+    <copyright>©DK BMC. All rights reserved. Powered by GitHub Pages.</copyright>
+    <lastBuildDate>Thu, 17 Oct 2019 12:00:53 +0900</lastBuildDate>
+    
+	<atom:link href="https://DKBMC-Business.github.io/tags/company-document/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DK BMC 브로셔</title>
+      <link>https://DKBMC-Business.github.io/resource/brochure/</link>
+      <pubDate>Thu, 17 Oct 2019 12:00:53 +0900</pubDate>
+      
+      <guid>https://DKBMC-Business.github.io/resource/brochure/</guid>
+      <description>DK BMC Brochure
+View File</description>
+    </item>
+    
+    <item>
+      <title>세일즈포스 인공지능 플랫폼, 아인슈타인을 통한 제조 산업 혁신 방안</title>
+      <link>https://DKBMC-Business.github.io/resource/resource5/</link>
+      <pubDate>Tue, 04 Jun 2019 10:38:35 +0900</pubDate>
+      
+      <guid>https://DKBMC-Business.github.io/resource/resource5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>제조, 하이테크 산업을 위한 CRM 솔루션 소개</title>
+      <link>https://DKBMC-Business.github.io/resource/resource4/</link>
+      <pubDate>Tue, 04 Jun 2019 10:38:33 +0900</pubDate>
+      
+      <guid>https://DKBMC-Business.github.io/resource/resource4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>제조업에서의 Digital Transformation</title>
+      <link>https://DKBMC-Business.github.io/resource/resource3/</link>
+      <pubDate>Tue, 04 Jun 2019 10:38:28 +0900</pubDate>
+      
+      <guid>https://DKBMC-Business.github.io/resource/resource3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2017 세일즈포스 서비스,마케팅 산업 사례</title>
+      <link>https://DKBMC-Business.github.io/resource/resource2/</link>
+      <pubDate>Tue, 04 Jun 2019 10:38:26 +0900</pubDate>
+      
+      <guid>https://DKBMC-Business.github.io/resource/resource2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>심텍의 세일즈포스 CRM 활용 사례</title>
+      <link>https://DKBMC-Business.github.io/resource/resource1/</link>
+      <pubDate>Tue, 04 Jun 2019 10:38:23 +0900</pubDate>
+      
+      <guid>https://DKBMC-Business.github.io/resource/resource1/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
