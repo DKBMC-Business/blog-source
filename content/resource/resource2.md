@@ -23,6 +23,10 @@ image = "http://www.dkbmc.com/gnuboard5/data/file/dkboard/833385916_ktBKpLVP_0e4
 
 # true : form 보이게 / false : form 안보이게
 form = true
+downloadURL = "http://www.dkbmc.com/gnuboard5/bbs/download.php?bo_table=dkboard&wr_id=70&no=1"
+fileName = "2017년_세일즈포스_서비스_산업_마케팅_사례_발표_자료_프린트_용.pdf"
+downloadURL_1 = "http://dkbmc.com/resource_download.php?wrid=70"
+fileName_1 = "Contents_70"
 
 comments = true
 date = 2019-06-04T10:38:26+09:00

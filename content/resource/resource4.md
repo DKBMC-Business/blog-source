@@ -23,6 +23,10 @@ image = "http://www.dkbmc.com/gnuboard5/data/file/dkboard/598380687_mZcbY1qs_492
 
 # true : form 보이게 / false : form 안보이게
 form = true
+downloadURL = "http://www.dkbmc.com/gnuboard5/bbs/download.php?bo_table=dkboard&wr_id=72&no=1"
+fileName = "제조_산업을_위한_세일즈포스_솔루션_전체_소개_-_배포용.pdf"
+downloadURL_1 = "http://dkbmc.com/resource_download.php?wrid=72"
+fileName_1 = "Contents_72"
 
 comments = true
 date = 2019-06-04T10:38:33+09:00

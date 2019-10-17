@@ -31,7 +31,6 @@ date = 2019-08-16T14:04:23+09:00
 
 <!-- 게시글 내용 -->
 <hr class="title__hr"/>
-Marketing cloud is the platform for delivering relevant, personalized journeys across channels and devices – enabling marketers to deliver the right messages to the right people via the right channel. Below is an image that shows the different functionalities that Salesforce marketing cloud provides your organization – journey builder, contact management tools, content management tools, analytics builder and various channels like email and mobile.
 
 마케팅 클라우드는 채널 및 디바이스 전반에 걸쳐 관련성 있고 개인화 된 여정을 제공하는 플랫폼으로 마케팅 담당자는 올바른 채널을 통해 올바른 사람들에게 올바른 메시지를 전달할 수 있습니다. 
 

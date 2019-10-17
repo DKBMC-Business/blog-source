@@ -23,6 +23,10 @@ image = "http://www.dkbmc.com/gnuboard5/data/file/dkboard/833385916_GMga8s30_02a
 
 # true : form 보이게 / false : form 안보이게
 form = true
+downloadURL = "http://www.dkbmc.com/gnuboard5/bbs/download.php?bo_table=dkboard&wr_id=69&no=1"
+fileName = "★Salesforce_Simmtech_PowerPoint_심텍_Ver02-20180321_최종본.pdf"
+downloadURL_1 = "http://dkbmc.com/resource_download.php?wrid=69"
+fileName_1 = "Contents_69"
 
 comments = true
 date = 2019-06-04T10:38:23+09:00
