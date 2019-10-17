@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Series on Business</title>
+    <link>https://DKBMC-Business.github.io/series/</link>
+    <description>Recent content in Series on Business</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language>
+    <copyright>©DK BMC. All rights reserved. Powered by GitHub Pages.</copyright>
+    <lastBuildDate>Mon, 02 Sep 2019 10:00:02 +0900</lastBuildDate>
+    
+	<atom:link href="https://DKBMC-Business.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Lightning Platform</title>
+      <link>https://DKBMC-Business.github.io/series/lightning-platform/</link>
+      <pubDate>Mon, 02 Sep 2019 10:00:02 +0900</pubDate>
+      
+      <guid>https://DKBMC-Business.github.io/series/lightning-platform/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marketing Cloud</title>
+      <link>https://DKBMC-Business.github.io/series/marketing-cloud/</link>
+      <pubDate>Fri, 16 Aug 2019 14:04:23 +0900</pubDate>
+      
+      <guid>https://DKBMC-Business.github.io/series/marketing-cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Service Cloud</title>
+      <link>https://DKBMC-Business.github.io/series/service-cloud/</link>
+      <pubDate>Fri, 09 Aug 2019 09:08:35 +0900</pubDate>
+      
+      <guid>https://DKBMC-Business.github.io/series/service-cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sales Cloud</title>
+      <link>https://DKBMC-Business.github.io/series/sales-cloud/</link>
+      <pubDate>Tue, 30 Jul 2019 09:16:01 +0900</pubDate>
+      
+      <guid>https://DKBMC-Business.github.io/series/sales-cloud/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

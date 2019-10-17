@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Video Contents on Business</title>
+    <link>https://DKBMC-Business.github.io/tags/video-contents/</link>
+    <description>Recent content in Video Contents on Business</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language>
+    <copyright>©DK BMC. All rights reserved. Powered by GitHub Pages.</copyright>
+    <lastBuildDate>Tue, 15 Oct 2019 17:08:08 +0900</lastBuildDate>
+    
+	<atom:link href="https://DKBMC-Business.github.io/tags/video-contents/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DK BMC Industry Template 영상</title>
+      <link>https://DKBMC-Business.github.io/resource/video_8/</link>
+      <pubDate>Tue, 15 Oct 2019 17:08:08 +0900</pubDate>
+      
+      <guid>https://DKBMC-Business.github.io/resource/video_8/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>KaKaoTalk 연동 시연 영상</title>
+      <link>https://DKBMC-Business.github.io/resource/video_7/</link>
+      <pubDate>Tue, 15 Oct 2019 17:08:08 +0900</pubDate>
+      
+      <guid>https://DKBMC-Business.github.io/resource/video_7/</guid>
+      <description> </description>
+    </item>
+    
+  </channel>
+</rss>
