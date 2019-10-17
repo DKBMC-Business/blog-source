@@ -371,10 +371,13 @@ br {
 }
 
 .post-preview {
-  position: absolute;
+  position: static;
   top: 0;
   -webkit-transition-duration: 0.3s;
           transition-duration: 0.3s;
+}
+.post-preview.align {
+  position: absolute;
 }
 
 @media all and (max-width: 1199px) {
