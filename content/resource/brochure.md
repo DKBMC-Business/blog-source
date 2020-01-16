@@ -30,8 +30,8 @@ date = 2019-10-17T12:00:53+09:00
 
 <!-- 게시글 내용 -->
 <img src="/img/content/brochure_thumb.jpg" style="display:block;margin:0 auto;" alt=""/>
-<p style="font-size:20px;font-weight:bold;text-align:center;color:#176db5;">DK BMC Brochure</p>
-<hr style="width:80px;"/>
+<p style="font-size:20px;font-weight:bold;text-align:center;color:#176db5;margin-bottom:0;">DK BMC Brochure</p>
+<hr style="width:35px;"/>
 
 <a href="http://dkbmc.com/lib/files/dkbmc_brochure.pdf" class="content-btn__a" target="_blank">
 View File</a>
