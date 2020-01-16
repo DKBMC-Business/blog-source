@@ -1106,7 +1106,7 @@ a:hover, a:focus {
 
 @media all and (max-width: 767px) {
   .resource-header {
-    margin-top: 60px;
+    margin-top: 56.5px;
   }
   .form-container{      
     width:100%; 
