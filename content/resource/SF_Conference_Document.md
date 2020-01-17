@@ -35,8 +35,5 @@ date = 2020-01-16T13:21:12+09:00
 <hr style="width:35px;"/>
 
 <div style="text-align:center;">
-<a href="https://dkbmc365.sharepoint.com/:p:/s/Salesforce/EUIyBfN-1W1FiXqd7kQUs3cBUL-w1DNv_vIOTSFD2cCBLg?e=4%3aRQ1LQN&at=9&CID=a4c5006a-545d-fc1f-69cc-46d11a91b8b5" class="content-btn__a" style="display:inline-block;margin-bottom:1rem;" target="_blank">
-View File</a>
-
-<a href="/img/content/Salesforce DT Platform_대한항공 사례.pptx" class="content-btn__a" style="display:inline-block;"  target="_blank">Download</a>
+<a href="/img/content/Salesforce DT Platform_대한항공 사례.pdf" class="content-btn__a" style="display:inline-block;"  target="_blank">View File</a>
 </div>
