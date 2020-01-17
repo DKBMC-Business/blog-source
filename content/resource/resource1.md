@@ -29,7 +29,7 @@ downloadURL_1 = "http://dkbmc.com/resource_download.php?wrid=69"
 fileName_1 = "Contents_69"
 
 comments = true
-date = 2019-06-04T10:38:23+09:00
+date = 2019-06-04T10:38:27+09:00
 +++
 
 <!-- 게시글 내용 -->
