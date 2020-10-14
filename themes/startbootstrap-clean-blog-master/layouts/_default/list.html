@@ -63,8 +63,22 @@ style="background-image: url('{{ .Site.BaseURL }}/img/post-bg-1.jpg')"
     {{ end }}
   </div>
   {{ template "_internal/pagination.html" . }}
+
+  <!-- Consulting Service -->
+  <div class="con-service__wrap">
+    
+  </div>
 </div>
 
+<script>
+  let pathname = window.location.pathname.split('/')[2];
+  if(pathname === 'consulting-service') {
+    document.querySelector('.comp-post-row').remove();
+  }
+  else {
+    document.querySelector('.con-service__wrap').remove();
+  }
+</script>
 
 
 <!-- 
