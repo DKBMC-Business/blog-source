@@ -13,7 +13,7 @@ style="background-image: url('{{ .Site.BaseURL }}/img/post-bg-1.jpg')"
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         <div class="site-heading list-heading">
-          <h1>{{ .Title }}</h1>
+          <h1>DK BMC {{ .Title }}</h1><!-- DB?에서 가져오는 값인지?-->
           <hr class="small">
           {{ if (eq .Title "ServiceWorks") }}
             <span class="subheading" style="font-size:20px;margin-top:20px;opacity:0.9;">100% 클라우드 컨택 센터 솔루션 Powered by Salesforce</span>
@@ -64,11 +64,321 @@ style="background-image: url('{{ .Site.BaseURL }}/img/post-bg-1.jpg')"
   </div>
   {{ template "_internal/pagination.html" . }}
 
+  
   <!-- Consulting Service -->
+  <!-- cd C:\Hugo\blog    ,hugo server -->
+  <!-- http://localhost:1313/categories/consulting-service/ -->
   <div class="con-service__wrap">
-    dkdkdkkdkkdkkdkdkkkkk
+
+    <div class="pi-m-title">PI 컨설팅 (Process Innovation Consulting)</div>
+    
+    <!-- 1번 -->
+    <div class="conc-list">
+      <h3 class="conc-list-title">1. PI 컨설팅 정의</h3>
+      <p class="conc-list-subtitle">프로세스 혁신은 새로운 업무의 방향성 정립과 기존 업무 프로세스 재설계, 기업의 정보기술과 조직적인 측면의 구현으로 이루어집니다.</p>
+      
+      <div class="conc-bg-image" style="background-image: url('{{ .Site.BaseURL }}/img/pic-pi-concerting.png'); ">
+       
+        <div class="conc-co pro-inno">
+          <p class="conc-co pro-inno-con">
+            <span class="conc-lightt">Process</span><br />
+            Innovation</p>
+        </div>
+        
+        <div class="conc-co bpr-business">
+          <p class="pi-gr-mt">BPR<br /></p>
+          <p class="pi-gr-st">
+            Business Process<br /> Re-engineering<br /><br />
+            <span class="conc-lightt">프로세스의 본질적인 재고를<br /> 통한 획기적인 재설계</span>
+          </p>
+        </div>
+
+        <div class="conc-co it-t">
+          <p class="conc-co pi-gr-mt it-t-title">IT</p>
+          <p class="conc-co pi-gr-st it-t-sub">Information <br />Technology<br /><br />
+            <span class="conc-lightt">IT 솔루션 도입을 통한 <br />업무의 효율화 추구</span></p>
+        </div>
+
+        <div class="conc-co six-sig">
+          <p class="conc-co pi-gr-mt">6<img src="{{ .Site.BaseURL }}/img/pic-pi-sigma-symbol.png" alt="" 
+            class="sig-img">
+          </p>
+          <p class="conc-co pi-gr-st">Process <br />Improvement<br /><br />
+            <span class="conc-lightt">기존의 프로세스에 <br />이슈를 중심으로 재설계</span></p>
+        </div>
+        
+        
+        <div class="conc-co enb-sec">
+          <div class="conc-co enb-title">
+            <p>PI 추진을 위한 Enabler</p>
+          </div>
+          <div class="conc-co enb-con">
+            <p>
+              1. 기업 전사 관점의 혁신<br />
+              2. 목표 가시화 및 선순환적 혁신 체계 수립<br />
+              3. PI 실현을 위한 IT Enabler 구현<br />
+              4. PI에 대한 변화관리 수행
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- 2번 -->
+    <div class="conc-list">
+      <h3 class="conc-list-title">2. PI 접근 방안</h3>
+      <p class="conc-list-subtitle">고객의 경영 목표 및 특성의 이해를 바탕으로 업무 개선과 안정적 구축 및 운영의 목표를 모두 달성하기 위해 업무 영역에 따라 다른 PI 접근 방법을
+        <br />적용하는 것이 필요합니다.</p>
+
+      <div class="conc-bg-image" style="background-image: url('{{ .Site.BaseURL }}/img/pic-pi-accessway.png'); ">
+        
+        <p class="conc-co accway1-title">PI 추진 유형</p>
+        <p class="conc-co accway1-subtitle">비즈니스 중심의 PI</p>
+        <hr class="conc-co accway1-hr">
+        <p class="conc-co accway1-content">Business의 이슈에 의해 PI를 수행하고 <br />
+          이를 위한 Enabler로서 정보시스템을 활용</p>
+
+        <div class="conc-co acc-sales-logo">
+          <img src="{{ .Site.BaseURL }}/img/salesforce_logo.png" alt="" class="conc-co acc-logo-img"></div>
+        <p class="conc-co accway2-subtitle">IT 솔루션 중심의 PI</p>
+        <hr class="conc-co accway2-hr">
+        <p class="conc-co accway2-content">IT 솔루션을 구축하기에 앞서 효과적이고 효율적인 <br />
+          시스템 구축을 위한 초기 단계에서 PI를 수행</p> 
+
+        <p class="conc-co accway3-title">PI 접근 방안</p>
+        <p class="conc-co accway3-subtitle"><span class="conc-bluet">비즈니스 중심의 PI</span> 작업 단계 적용</p>
+        <div class="conc-co acc-b1 accway3-b1">기초 자료<br />수집 / 분석</div>
+        <div class="conc-co acc-b1 accway3-b2">업무 유형별<br />이슈 수집</div>
+        <div class="conc-co acc-b2 accway3-b3">To-Be <span class="conc-blodt" ><br />표준화<br />방안 도출</span></div>
+        <div class="conc-co acc-b2 accway3-b4"><span class="conc-blodt" >사용자 및<br />유관 부서</span><br />Feedback</div>
+        <div class="conc-co acc-b2 accway3-b5"><span class="conc-blodt" >표준 Guide <br />정리 및<br />IT 요건 도출</span></div>
+
+
+        <p class="conc-co accway4-subtitle"><span class="conc-bluet">IT 솔루션 중심의 PI</span> 작업 단계 적용</p>
+        <div class="conc-co acc-b3 accway4-b1">표준 기능<br />Fit / Gap<br />분석</div>
+        <div class="conc-co acc-b3 accway4-b2">업무<br />유형별<br />표준화</div>
+        <div class="conc-co acc-b3 accway4-b3">표준 업무<br />단위별<br />상세화</div>
+        <div class="conc-co acc-b3 accway4-b4">표준 기능외<br />추가 IT<br />요건 선별</div>
+        <p class="conc-co accway4-content">※ SFDC 표준 기능 기반 운영 안정성과 빠른 구축의 장점이 있음</p> 
+      </div>
+    </div>
+
+    <!-- 3번 -->
+    <div class="conc-list">
+      <h3 class="conc-list-title">3. PI 프레임워크</h3>
+      <p class="conc-list-subtitle">DKBMC의 PI 방법론을 통해 디지털 기술 기반으로 기업의 전략, 프로세스, 조직, 비즈니스 모델, 커뮤니케이션, 인프라 등 전사 관점으로 혁신적인 
+        <br />변화를  추진할 수 있는 방안을 수립합니다.</p>
+        
+        <div class="conc-bg-image" style="background-image: url('{{ .Site.BaseURL }}/img/pic-pi-framework.png'); ">
+          <p class="conc-co con-phase con-phase-1"><span class="con-phase-light">Phase 01</span><br /> 추진 전략 및 현황 분석</p>
+          <p class="conc-co con-phase con-phase-2"><span class="con-phase-light">Phase 02</span><br />PI 과제 도출</p>
+          <p class="conc-co con-phase con-phase-3"><span class="con-phase-light">Phase 03</span><br />To-Be 모델 설계</p>
+          <p class="conc-co con-phase con-phase-4"><span class="con-phase-light">Phase 04</span><br />PI 실행전략 수립</p>
+
+          <div class="conc-co perform-subtitle">
+            <hr class="conc-co con-white-shorthr per-sub-whitehr">
+            <p class="conc-co per-sub-whitet con-sub-whitet">Leadership <br />Capability</p>
+          </div>
+
+          <div class="conc-co perform-list1 per-li">
+            <p class="conc-co perform-list1-title per-li-ti">Strategy</p>
+            <div class="conc-co perform-list-verhr"></div>
+            <p class="conc-co perform-list1-content per-li-con">기업의 전략 및 제도, 기준이 설정되어 <br />
+              전체적인 경영의 방향성을 제시하여야 합니다.</p>
+          </div>
+          <div class="conc-co perform-list2 per-li">
+            <p class="conc-co perform-list2-title per-li-ti">Process</p>
+            <div class="conc-co perform-list-verhr"></div>
+            <p class="conc-co perform-list2-content per-li-con">기업의 전략을 지원할 수 있는 <br />
+              효율적이고 효과적인 프로세스가 정립되어야 합니다.</p>
+          </div>
+          <div class="conc-co perform-list3 per-li">
+            <p class="conc-co perform-list3-title per-li-ti">IT</p>
+            <div class="conc-co perform-list-verhr"></div>
+            <p class="conc-co perform-list3-content per-li-con">진보된 정보기술을 이용하여 현실적으로 구현되어야 합니다.</p>
+          </div>
+          <div class="conc-co perform-list4 per-li">
+            <p class="conc-co perform-list4-title per-li-ti">People</p>
+            <div class="conc-co perform-list-verhr"></div>
+            <p class="conc-co perform-list4-content per-li-con">조직과 조직 구성원의 권한, 역할 및 책임이 분명하여야 합니다.</p>
+          </div>
+
+          <div class="conc-co perform-total-verhr"></div>
+
+          <div class="conc-co perform-total">
+            <p class="conc-co perform-total-title per-li-ti">실행 계획 <br /><span class="per-li-con per-center">(구축 방안)</span></p>
+            <p class="conc-co perform-total-content per-li-con">기업의 디지털 전환에 <br />대해 경영 전략에 부합<br />
+              하고 IT 요건을 충족하는<br />플랫폼의 모습과 이를<br />구축하기 위한 합리적인<br />방안을 제시합니다.
+              </p>
+          </div>
+        </div>
+    </div>
+
+    <!-- 4번 -->
+
+    <div class="conc-list">
+        <h3 class="conc-list-title con-pha-title">4. PI 방법론</h3>
+        <p class="conc-list-subtitle">경영 비전과 전략의 명확한 이해와 현행 프로세스 분석을 통해 도출된 혁신 과제를 설계하고 시스템 개발을 위한 아키텍처와 IT 요건 정의를 포함한
+        <br />PI 실행  계획을 수립합니다.</p>
+      
+      <div class="conc-bg-image" style="background-image: url('{{ .Site.BaseURL }}/img/pic-pi-method.png'); ">
+        
+        <p class="conc-co con-phase con-phase-1"><span class="con-phase-light">Phase 01</span><br />AS-IS 현황 분석</p>
+        <p class="conc-co con-phase con-phase-2"><span class="con-phase-light">Phase 02</span><br />PI 과제 도출</p>
+        <p class="conc-co con-phase con-phase-3"><span class="con-phase-light">Phase 03</span><br />To-Be 모델 설계</p>
+        <p class="conc-co con-phase con-phase-4"><span class="con-phase-light">Phase 04</span><br />PI 실행전략 수립</p>
+
+        <div class="conc-co method-subtitle1">
+          <hr class="conc-co con-white-shorthr met-sub-whitehr">
+          <p class="conc-co con-sub-whitet met-sub-whitet1">현황 분석 및<br />과제 도출</p>
+          <p class="conc-co con-sub-whitet2 met-sub-whitet2">(총 4 M/M)</p>
+        </div>
+
+        <div class="conc-co method-subtitle2">
+          <hr class="conc-co con-white-shorthr met-sub-whitehr">
+          <p class="conc-co con-sub-whitet met-sub-whitet3">IT 아키텍처/ <br /> 요건 정의</p>
+          <p class="conc-co con-sub-whitet2 met-sub-whitet4">(총 1M/M)</p>
+        </div>
+
+        <div class="conc-co b-bundle">
+          <div class="conc-co met-btype1 met-b1"><span class="conc-blodt">경영 비전 및 전략 이해</span><br />(경영진 인터뷰)</div>
+          <div class="conc-co met-btype1 met-b2">추진 전략 및 프로세스별 적용 방향 수립</div>
+          <div class="conc-co met-btype1 met-b3 met-sb">프로세스<br />모델분석</div>
+          <div class="conc-co met-btype1 met-b4 ">프로세스 현황<br />조사 및 이슈 분석</div>
+          <div class="conc-co met-btype1 met-b5 met-sb">선진 사례<br /> 분석</div>
+          <div class="conc-co met-btype1 met-b6 met-sb">개선 기회<br /> 도출</div>
+          <div class="conc-co met-btype1 met-b7 met-sb">PI 개선 <br />과제 도출</div>
+          <div class="conc-co met-btype1 met-b8 met-sb">PI 과제<br /> 설계</div>
+          <div class="conc-co met-btype1 met-b9 met-sb">To - Be<br />프로세스 설계</div>
+          <div class="conc-co met-btype1 met-b10 met-sb">과제 우선<br />순위 분석</div>
+          <div class="conc-co met-btype1 met-b11 met-sb">실행<br />로드맵</div>
+
+          <div class="conc-co met-btype2 met-b12">업무지원 IT<br />시스템 구성 파악</div>
+          <div class="conc-co met-btype2 met-b13 met-sb">업무 IT<br />지원도 분석</div>
+          <div class="conc-co met-btype2 met-b14 met-sb">시스템<br />아키텍쳐 설계</div>
+          <div class="conc-co met-btype2 met-b15 met-sb">IT<br />요건 정의</div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- 5번 -->
+    <div class="conc-list">
+      <h3 class="conc-list-title">5. DKBMC 수행 전략</h3>
+      <p class="conc-list-subtitle">PI컨설팅을 통해 최적화된 결과를 실제적인 시스템 설계에 반영하고 유연성 및 확장성을 지원할 수 있는 솔루션과 사용자 참여형 Agile 방법론 적용 등
+        <br />4대 중점 추진 전략을 기반으로 프로젝트 접근 방안을 설정하여 진행합니다.</p>
+        
+        <div class="conc-bg-image stra-bg" style="background-image: url('{{ .Site.BaseURL }}/img/pic-pi-strategy.png'); ">
+          
+          <p class="conc-co stra-title">One-Stop<br />프로젝트</p>
+          <div class="conc-co stra-title-con">4대 중점 추진 전략</div>
+          
+          <div class="conc-co stra-subtitle stra-sub1">기업의 특성에 부합하는<br />실제적인 시스템 설계</div>
+          <p class="conc-co stra-content stra-sub1-con1">1. 업무 혁신과 실제적 구축을 위한<br />&nbsp; 영역별 최적화 방식 적용</p>
+          <p class="conc-co stra-content stra-sub1-con2">2. 비즈니스 기반 PI &amp; IT<br />&nbsp; 솔루션 기반 PI</p>
+          
+          <div class="conc-co stra-subtitle stra-sub2">실제 업무에 활용 가능한<br />실용적인 시스템 구축</div>
+          <p class="conc-co stra-content stra-sub2-con1">1. PI 결과를 내제화 할 수 있는Practical<br />&nbsp; 시스템 구축</p>
+          <p class="conc-co stra-content stra-sub2-con2">2. 실용적인 시스템 설계 및 구축 </p>
+
+          <div class="conc-co stra-subtitle stra-sub3">시스템간 유연한 I/F<br />지원으로 확장성 보장</div>
+          <p class="conc-co stra-content stra-sub3-con1">1. 유연성 및 확장성을 지원할 수 <br />&nbsp; 있는 솔루션 도입</p>
+          <p class="conc-co stra-content stra-sub3-con2">2. 높은 유연성 및 확장성 보장</p>
+
+          <div class="conc-co stra-subtitle stra-sub4">Agile 구축 방법론을 통한<br />사용자 최적화 시스템 구축</div>
+          <p class="conc-co stra-content stra-sub4-con1">1. 유연성 및 확장성을 지원할 수 <br />&nbsp; 있는 솔루션 도입</p>
+          <p class="conc-co stra-content stra-sub4-con2">2. 사용자 참여를 통함 Agile 방안 실행</p>
+          
+        </div>
+      </div>
+
+    <!-- 6번 -->
+    <div class="conc-list">
+      <h3 class="conc-list-title os-title">6. DKBMC One-Stop 프로젝트 수행 절차</h3>
+      <p class="conc-list-subtitle os-subtitle">PI컨설팅을 통해 전략적 개선 과제 도출 및 추진 계획을 수립하여 최적화된 실행 계획 수립부터 이를 반영한 목표 솔루션 설계, 구축 그리고 시스템 안정화까지
+        <br />연속성을 보장한 『One-Stop 프로젝트』 수행을 지원합니다.</p>
+        
+        <div class="conc-bg-image strategy-bg" style="background-image: url('{{ .Site.BaseURL }}/img/pic-pi-onestep.png'); ">
+          
+          <p class="conc-co os-phase-0">ILLUSTRATIVE<br />ONLY</p>
+
+          <div class="conc-co os-phase">
+            <p class="conc-co os-phase-1">Identify</p>
+            <p class="conc-co os-phase-2">Analyze</p>
+            <p class="conc-co os-phase-3">Design</p>
+            <p class="conc-co os-phase-4">Implement</p>
+            <p class="conc-co os-phase-5">Verify</p>
+          </div>
+
+          <div class="conc-co os-arrow-t">PI/구축 협업 연계</div>
+
+          <div class="conc-co os-sub-gr sub-gr1">PI 컨설팅 </div>
+          <div class="conc-co os-sub-gr sub-gr2">시스템 구축 </div>
+          <div class="conc-co os-sub-gr sub-gr3">I/F &amp; <br />데이터 이관 </div>
+
+
+          <div class="conc-co os-contents">
+
+            <div class="conc-co os-v-hr1"></div>
+            <div class="conc-co os-v-hr2"></div>
+            <div class="conc-co os-v-hr3"></div>
+            <div class="conc-co os-v-hr4"></div>
+
+            <div class="conc-co os-gr1-t1">PI추진<br />전략수립</div>
+            <div class="conc-co os-gr1-t2">As-Is<br />업무분석</div>
+            <div class="conc-co os-gr1-t3">프로세스별<br />적용방안수립</div>
+            <div class="conc-co os-gr1-t4">프로세스<br />현황조사<br />및 이슈분석</div>
+            <div class="conc-co os-gr1-t5">Best <br />Practice<br />분석</div>
+            <div class="conc-co os-gr1-t6">PI<br />개선과제<br />도출</div>
+            <div class="conc-co os-gr1-t7">PI과제<br />설계</div>
+            <div class="conc-co os-gr1-t8">To-Be<br />프로세스<br />설계</div>
+            <div class="conc-co os-gr1-t9">추진계획<br />수립</div>
+
+            <div class="conc-co os-gr2-t1">요구<br />사항정의</div>
+            <div class="conc-co os-gr2-t2">업무지원<br />시스템 파악</div>
+            <div class="conc-co os-gr2-t3">업무IT<br />지원도<br />분석</div>
+            <div class="conc-co os-gr2-t4">시스템<br />아키텍쳐<br />도출</div>
+            <div class="conc-co os-gr2-t5">IT<br />요건정의</div>
+            <div class="conc-co os-gr2-t6">솔루션<br />검토</div>
+            <div class="conc-co os-gr2-t7">Sprint1<br />Design,<br />Build <br />Test,<br />Wrap-up</div>
+            <div class="conc-co os-gr2-t8">Sprint2<br />Design,<br />Build <br />Test,<br />Wrap-up</div>
+            <div class="conc-co os-gr2-t9">Sprint3<br />Design,<br />Build <br />Test,<br />Wrap-up</div>
+            <div class="conc-co os-gr2-t10">통합 테스트/<br />사용자 인수<br />테스트</div>
+            <div class="conc-co os-gr2-t11">시스템<br />안정화</div>
+
+            <div class="conc-co os-gr3-t1">As-Is<br />I/F 분석</div>
+            <div class="conc-co os-gr3-t2">To-Be I/F <br />설계</div>
+            <div class="conc-co os-gr3-t3">I/F<br />환경구축</div>
+            <div class="conc-co os-gr3-t4">I/F 개발</div>
+            
+            <div class="conc-co os-gr3-t5">Legacy DB<br />분석</div>
+            <div class="conc-co os-gr3-t6">클렌징<br />정의</div>
+            <div class="conc-co os-gr3-t7">개발용<br />데이터<br />업로드</div>
+            <div class="conc-co os-gr3-t8">데이터 이행검증<br />프로그램 개발</div>
+            <div class="conc-co os-gr3-t9">1차<br />이행</div>
+            <div class="conc-co os-gr3-t10">2차<br />이행</div>
+            <div class="conc-co os-gr3-t11">최종<br />이행</div>
+            <div class="conc-co os-gr3-t12">운영자<br />교육</div>
+          </div>
+
+          <div class="conc-co os-footer">
+            PI컨설팅 부터 시스템 오픈, 안정화에 이르기까지 하나의 사업으로 유기적인 프로젝트 수행
+          </div>
+
+        </div>
+      </div>
+
+    <!--문의버튼-->
+    <div class="wrap-ques-btn">
+      <button class="ques-btn " onclick="location.href='http://dkbmc.com/contact.html'"><span class="ques-t">문의하기</span></button>
+    </div>
+
   </div>
+
+
 </div>
+
+
 
 <script>
   let pathname = window.location.pathname.split('/')[2];

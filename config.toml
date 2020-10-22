@@ -42,3 +42,7 @@ paginate = 6
   name = "Resource"
   url = "/resource/"
   weight = -160
+[[menu.main]]
+name = "Contact Us"
+url = "http://dkbmc.com/contact.html"
+weight = -140
