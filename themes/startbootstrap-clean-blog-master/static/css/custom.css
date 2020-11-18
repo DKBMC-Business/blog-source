@@ -1489,7 +1489,7 @@ gr : group, b : box, mt : main text, st : sub text */
 
 .conc-list-subtitle{
   width : 1086px;
-  line-height: 1.5;
+  line-height: 1.39;
   margin: 0px;
   padding: 23px 0px;
   font-size: 18px;
@@ -1564,7 +1564,7 @@ gr : group, b : box, mt : main text, st : sub text */
 }
 
 .it-t .it-t-title{
-  top: 445px;
+  top: 456px;
   left: 207px;
 }
 
@@ -1583,7 +1583,7 @@ gr : group, b : box, mt : main text, st : sub text */
   height : 170px;
 }
 .sig-img{
-  margin-left: 5px;
+  margin-left: 2px;
 }
 .enb-sec{
   top : 132px;
@@ -1861,6 +1861,9 @@ gr : group, b : box, mt : main text, st : sub text */
   line-height: 1.4;
   font-weight: initial;
 }
+.per-li-longcon{
+  line-height: 1.5;
+}
 .perform-list-verhr{
   top : 29px;
   left : 147px; 
@@ -2066,7 +2069,7 @@ gr : group, b : box, mt : main text, st : sub text */
   /* top : 8px;
   left : 7px; */
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 800;
   letter-spacing: -0.64px;
   text-align: right;
   color: #e81e1e;
@@ -2192,6 +2195,7 @@ color: #333333;
 }
 
 .ques-btn{
+  font-weight: 600;
   width: 180px;
   height: 56px;
   border-radius: 5px;
@@ -2204,11 +2208,9 @@ color: #333333;
   text-align: center;
 }
 
-/* .ques-btn:hover {
+.ques-btn:hover {
+  font-weight: 700;
   background: transparent;
-  color: black;
-  font-weight: 500;
-} */
-
-
+  color: #176DB5;
+}
 

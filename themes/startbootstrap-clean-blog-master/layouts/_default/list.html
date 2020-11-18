@@ -207,7 +207,7 @@ style="background-image: url('{{ .Site.BaseURL }}/img/post-bg-1.jpg')"
 
           <div class="conc-co perform-total">
             <p class="conc-co perform-total-title per-li-ti">실행 계획 <br /><span class="per-li-con per-center">(구축 방안)</span></p>
-            <p class="conc-co perform-total-content per-li-con">기업의 디지털 전환에 <br />대해 경영 전략에 부합<br />
+            <p class="conc-co perform-total-content per-li-con per-li-longcon">기업의 디지털 전환에 <br />대해 경영 전략에 부합<br />
               하고 IT 요건을 충족하는<br />플랫폼의 모습과 이를<br />구축하기 위한 합리적인<br />방안을 제시합니다.
               </p>
           </div>
@@ -239,9 +239,10 @@ style="background-image: url('{{ .Site.BaseURL }}/img/post-bg-1.jpg')"
           <p class="conc-co con-sub-whitet met-sub-whitet3">IT 아키텍처/ <br /> 요건 정의</p>
           <p class="conc-co con-sub-whitet2 met-sub-whitet4">(총 1M/M)</p>
         </div>
-
+        
+        <!--text blod 수정-->
         <div class="conc-co b-bundle">
-          <div class="conc-co met-btype1 met-b1"><span class="conc-blodt">경영 비전 및 전략 이해</span><br />(경영진 인터뷰)</div>
+          <div class="conc-co met-btype1 met-b1">경영 비전 및 전략 이해<br />(경영진 인터뷰)</div>
           <div class="conc-co met-btype1 met-b2">추진 전략 및 프로세스별 적용 방향 수립</div>
           <div class="conc-co met-btype1 met-b3 met-sb">프로세스<br />모델분석</div>
           <div class="conc-co met-btype1 met-b4 ">프로세스 현황<br />조사 및 이슈 분석</div>
@@ -378,15 +379,14 @@ style="background-image: url('{{ .Site.BaseURL }}/img/post-bg-1.jpg')"
 
 </div>
 
-
-
+<!-- 1106 card수정 -->
 <script>
-  let pathname = window.location.pathname.split('/')[2];
+  var pathname = window.location.pathname.split('/')[2];
   if(pathname === 'consulting-service') {
-    document.querySelector('.comp-post-row').remove();
+    document.querySelector('.comp-post-row').style.display = 'none';
   }
   else {
-    document.querySelector('.con-service__wrap').remove();
+    document.querySelector('.con-service__wrap').style.display = 'none';
   }
 </script>
 
