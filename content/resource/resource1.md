@@ -21,6 +21,9 @@ draft = false
 #썸네일 이미지 URL
 image = "http://www.dkbmc.com/gnuboard5/data/file/dkboard/833385916_GMga8s30_02a894a43b05e3dda776b8b2c77578f226093f34.jpg"
 
+#배경 이미지 URL
+bgimage = "https://DKBMC-Business.github.io/img/resource-item-bg.jpg"
+
 # true : form 보이게 / false : form 안보이게
 form = true
 downloadURL = "http://www.dkbmc.com/gnuboard5/bbs/download.php?bo_table=dkboard&wr_id=69&no=1"
