@@ -2059,12 +2059,6 @@ gr : group, b : box, mt : main text, st : sub text */
 .strategy-bg{
   line-height: 1.15;
 }
-.os-subtitle{
-  font-size: 16px;
-  text-align: left;
-  color: #555555;
-}
-
 .os-phase-0{
   /* top : 8px;
   left : 7px; */
